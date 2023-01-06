@@ -17,7 +17,7 @@ class FeatureExtractor( nn.Module ):
         x = self.resnet18.layer3( x )
         x = self.resnet18.layer4( x )
         x = self.resnet18.avgpool( x )
-        x.squeeze()
+        x = x.squeeze()
         if len( x.size() ) < 2:
             return x.unsqueeze( 0 )
         return x
