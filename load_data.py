@@ -50,7 +50,7 @@ def read_lines(data_path, domain_name):
     return examples
 
 def read_lines_domain_disentangle(data_path, domain_name):
-    examples = dict()
+    examples = {}
     with open(f'{data_path}/{domain_name}.txt') as f:
         lines = f.readlines()
 
@@ -61,7 +61,6 @@ def read_lines_domain_disentangle(data_path, domain_name):
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
         domain_category = (domain_idx, category_idx)
-        print(domain_category)
         image_name = line[4]
         image_path = f'{data_path}/kfold/{domain_name}/{category_name}/{image_name}'
         if domain_category not in examples.keys():
@@ -130,8 +129,8 @@ def build_splits_domain_disentangle(opt):
     source_domain = 'art_painting'
     target_domain = opt['target_domain']
 
-    source_examples = read_lines(opt['data_path'], source_domain)
-    target_examples = read_lines(opt['data_path'], target_domain)
+    source_examples = read_lines_domain_disentangle(opt['data_path'], source_domain)
+    target_examples = read_lines_domain_disentangle(opt['data_path'], target_domain)
 
     # Compute ratios of examples for each category
     source_category_ratios = {category_idx: len(examples_list) for category_idx, examples_list in source_examples.items()}
