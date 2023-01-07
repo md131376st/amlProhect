@@ -60,7 +60,7 @@ def read_lines_domain_disentangle(data_path, domain_name):
         domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
-        domain_cateogory = domain_idx + "/" + category_idx
+        domain_cateogory = str(domain_idx) + "/" + str(category_idx)
         image_name = line[4]
         image_path = f'{data_path}/kfold/{domain_name}/{category_name}/{image_name}'
         if domain_cateogory not in examples.keys():
