@@ -60,7 +60,7 @@ def read_lines_domain_disentangle(data_path, domain_name):
         domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
-        domain_cateogory = str(domain_idx) + "/" + str(category_idx)
+        domain_cateogory = (domain_idx, category_idx)
         image_name = line[4]
         image_path = f'{data_path}/kfold/{domain_name}/{category_name}/{image_name}'
         if domain_cateogory not in examples.keys():
@@ -145,8 +145,8 @@ def build_splits_domain_disentangle(opt):
     test_examples = []
 
     for domain_category, examples_list in source_examples.items():
-        domain_idx = domain_category.strip().split()[0].split('/')
-        category_idx = domain_category.strip().split()[1].split('/')
+        domain_idx = domain_category[0]
+        category_idx = domain_category[1]
         split_idx = round(source_category_ratios[category_idx] * val_split_length)
         for i, example in enumerate(examples_list):
             if i > split_idx:
@@ -155,8 +155,8 @@ def build_splits_domain_disentangle(opt):
                 val_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
     
     for domain_category, examples_list in target_examples.items():
-        domain_idx = domain_category.strip().split()[0].split('/')
-        category_idx = domain_category.strip().split()[1].split('/')
+        domain_idx = domain_category[0]
+        category_idx = domain_category[1]
         for example in examples_list:
             test_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
     
