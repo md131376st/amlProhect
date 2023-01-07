@@ -7,7 +7,7 @@ def myReconstructorLoss(reconstructorOutputs, features):
 def myEntropyLoss(outputs):
     l = 0
     for i in range(len(outputs)):
-        l += outputs[i]
+        l += outputs[i].item()
     l *= 1/len(outputs)
     return -l
     
