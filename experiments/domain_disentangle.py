@@ -125,7 +125,7 @@ class DomainDisentangleExperiment: # See point 2. of the project
         count = 0
         loss = 0
         with torch.no_grad():
-            for x, y in loader:
+            for x, y, z in loader:
                 x = x.to(self.device)
                 y = y.to(self.device)
 
