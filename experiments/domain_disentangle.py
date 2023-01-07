@@ -1,6 +1,5 @@
 import torch
 from models.base_model import DomainDisentangleModel
-import numpy as np
 
 
 def myReconstructorLoss(reconstructorOutputs, features):
@@ -9,7 +8,7 @@ def myReconstructorLoss(reconstructorOutputs, features):
 def myEntropyLoss(outputs, labels):
     l = 0
     for i in range(len(outputs)):
-        l += np.log(np.abs(outputs[i]-labels[i]))
+        l += torch.log(torch.abs(outputs[i]-labels[i]))
     l *= 1/len(outputs)
     return -l
     
@@ -102,16 +101,17 @@ class DomainDisentangleExperiment: # See point 2. of the project
             loss.backward()
 
         else:
-            x = data
+            x, y, z = data
             x = x.to(self.device)
+            z = z.to(self.device)
 
             logits = self.model(x, w2=1)
-            loss = self.domain_classifier_criterion(logits, np.ones((len(logits),)))
+            loss = self.domain_classifier_criterion(logits, z)
             loss.backward()
             self.domain_category_optimizer.step()
 
             logits = self.model(x, w3=1)
-            loss = self.domain_category_criterion(logits, np.ones((len(logits),)))
+            loss = self.domain_category_criterion(logits, z)
             loss.backward()
             self.domain_category_optimizer.step()
 
