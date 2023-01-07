@@ -6,9 +6,11 @@ def myReconstructorLoss(reconstructorOutputs, features):
     return torch.nn.MSELoss(reconstructorOutputs, features) + torch.nn.KLDivLoss(reconstructorOutputs, features)
 
 def myEntropyLoss(outputs, labels):
+    O = np.array(outputs)
+    L = np.array(labels)
     l = 0
     for i in range(len(outputs)):
-        l += np.log(np.abs(np.array((outputs[i]-labels[i]))))
+        l += np.log(np.abs(O[i]-L[i]))
     l *= 1/len(outputs)
     return -l
     
