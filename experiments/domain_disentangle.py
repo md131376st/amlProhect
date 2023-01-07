@@ -5,9 +5,7 @@ def myReconstructorLoss(reconstructorOutputs, features):
     return torch.nn.MSELoss(reconstructorOutputs, features) + torch.nn.KLDivLoss(reconstructorOutputs, features)
 
 def myEntropyLoss(outputs):
-    l = 0
-    for i in range(len(outputs)):
-        l += outputs[i].item()
+    l = torch.sum(outputs)
     l *= 1/len(outputs)
     return -l
     
