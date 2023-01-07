@@ -50,7 +50,7 @@ def read_lines(data_path, domain_name):
     return examples
 
 def read_lines_domain_disentangle(data_path, domain_name):
-    examples = {}
+    examples = dict()
     with open(f'{data_path}/{domain_name}.txt') as f:
         lines = f.readlines()
 
@@ -60,13 +60,14 @@ def read_lines_domain_disentangle(data_path, domain_name):
         domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
-        domain_cateogory = (domain_idx, category_idx)
+        domain_category = (domain_idx, category_idx)
+        print(domain_category)
         image_name = line[4]
         image_path = f'{data_path}/kfold/{domain_name}/{category_name}/{image_name}'
-        if domain_cateogory not in examples.keys():
-            examples[domain_cateogory] = [image_path]
+        if domain_category not in examples.keys():
+            examples[domain_category] = [image_path]
         else:
-            examples[domain_cateogory].append(image_path)
+            examples[domain_category].append(image_path)
     return examples
 
 def build_splits_baseline(opt):
