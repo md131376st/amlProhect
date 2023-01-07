@@ -4,10 +4,10 @@ from models.base_model import DomainDisentangleModel
 def myReconstructorLoss(reconstructorOutputs, features):
     return torch.nn.MSELoss(reconstructorOutputs, features) + torch.nn.KLDivLoss(reconstructorOutputs, features)
 
-def myEntropyLoss(outputs, labels):
+def myEntropyLoss(outputs):
     l = 0
     for i in range(len(outputs)):
-        l += torch.log(torch.abs(outputs[i]-labels[i])).data[0]
+        l += outputs[i]
     l *= 1/len(outputs)
     return -l
     
@@ -85,12 +85,12 @@ class DomainDisentangleExperiment: # See point 2. of the project
 
             self.domain_category_optimizer.zero_grad()
             logits = self.model(x, w3=1)
-            loss = self.domain_category_criterion(logits, z)
+            loss = self.domain_category_criterion(logits)
             loss.backward()
             
             self.object_domain_optimizer.zero_grad()
             logits = self.model(x, w4=1)
-            loss = self.object_domain_criterion(logits, y)
+            loss = self.object_domain_criterion(logits)
             loss.backward()
             self.object_domain_optimizer.step()
 
@@ -110,7 +110,7 @@ class DomainDisentangleExperiment: # See point 2. of the project
             self.domain_category_optimizer.step()
 
             logits = self.model(x, w3=1)
-            loss = self.domain_category_criterion(logits, z)
+            loss = self.domain_category_criterion(logits)
             loss.backward()
             self.domain_category_optimizer.step()
 
