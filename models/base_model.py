@@ -104,9 +104,9 @@ class DomainDisentangleModel( nn.Module ):
         elif w4 is not None:
             x = self.domain_encoder( x )
             x = self.object_classifier( x )
-        else:
-            y = self.category_encoder( x )
-            z = self.domain_encoder( x )
-            y = torch.cat((y, z))
-            x = self.reconstructor( y )
+        # else:
+        #     y = self.category_encoder( x )
+        #     z = self.domain_encoder( x )
+        #     y = torch.cat((y, z))
+        #     x = self.reconstructor( y )
         return x
