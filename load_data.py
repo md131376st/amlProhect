@@ -60,15 +60,13 @@ def read_lines_domain_disentangle(data_path, domain_name):
         domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
+        domain_cateogory = domain_idx + "/" + category_idx
         image_name = line[4]
         image_path = f'{data_path}/kfold/{domain_name}/{category_name}/{image_name}'
-        if domain_idx not in examples.keys():
-            examples[domain_idx] = dict()
-            examples[domain_idx][category_idx] = [image_path]
-        elif category_idx not in examples[domain_idx].keys():
-            examples[domain_idx][category_idx] = [image_path]
+        if domain_cateogory not in examples.keys():
+            examples[domain_cateogory] = [image_path]
         else:
-            examples[domain_idx][category_idx].append(image_path)
+            examples[domain_cateogory].append(image_path)
     return examples
 
 def build_splits_baseline(opt):
@@ -146,19 +144,21 @@ def build_splits_domain_disentangle(opt):
     val_examples = []
     test_examples = []
 
-    for domain_idx, category_examples_list in source_examples.items():
-        for category_idx, examples_list in category_examples_list.items():
-            split_idx = round(source_category_ratios[category_idx] * val_split_length)
-            for i, example in enumerate(examples_list):
-                if i > split_idx:
-                    train_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
-                else:
-                    val_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
+    for domain_category, examples_list in source_examples.items():
+        domain_idx = domain_category.strip().split()[0].split('/')
+        category_idx = domain_category.strip().split()[1].split('/')
+        split_idx = round(source_category_ratios[category_idx] * val_split_length)
+        for i, example in enumerate(examples_list):
+            if i > split_idx:
+                train_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
+            else:
+                val_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
     
-    for domain_idx, category_examples_list in target_examples.items():
-        for category_idx, examples_list in category_examples_list.items():
-            for example in examples_list:
-                test_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
+    for domain_category, examples_list in target_examples.items():
+        domain_idx = domain_category.strip().split()[0].split('/')
+        category_idx = domain_category.strip().split()[1].split('/')
+        for example in examples_list:
+            test_examples.append([example, category_idx, domain_idx]) # each pair is [path_to_img, class_label, domain_label]
     
     # Transforms
     normalize = T.Normalize([0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) # ResNet18 - ImageNet Normalization
