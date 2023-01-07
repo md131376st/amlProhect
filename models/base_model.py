@@ -1,3 +1,4 @@
+import torch
 import torch.nn as nn
 from torchvision.models import resnet18
 
@@ -106,6 +107,6 @@ class DomainDisentangleModel( nn.Module ):
         else:
             y = self.category_encoder( x )
             z = self.domain_encoder( x )
-            y.extend( z )
+            y = torch.cat((y, z))
             x = self.reconstructor( y )
         return x
