@@ -69,9 +69,10 @@ class DomainDisentangleExperiment: # See point 2. of the project
 
     def train_iteration(self, data, train=True):
         if train:
-            x, y = data
+            x, y, z = data
             x = x.to(self.device)
             y = y.to(self.device)
+            z = z.to(self.device)
 
             self.object_classifier_optimizer.zero_grad()
             logits = self.model(x, w1=1)
@@ -81,12 +82,12 @@ class DomainDisentangleExperiment: # See point 2. of the project
 
             self.domain_classifier_optimizer.zero_grad()
             logits = self.model(x, w2=1)
-            loss = self.domain_classifier_criterion(logits, np.zeros((len(logits),)))
+            loss = self.domain_classifier_criterion(logits, z)
             loss.backward()
 
             self.domain_category_optimizer.zero_grad()
             logits = self.model(x, w3=1)
-            loss = self.domain_category_criterion(logits, np.zeros((len(logits),)))
+            loss = self.domain_category_criterion(logits, z)
             loss.backward()
             
             self.object_domain_optimizer.zero_grad()
