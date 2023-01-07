@@ -87,7 +87,7 @@ class DomainDisentangleModel( nn.Module ):
         self.object_classifier = nn.Linear( 512, 7 )
 
         self.reconstructor = None  # TODO
-        raise NotImplementedError( '[TODO] Implement DomainDisentangleModel' )
+        #raise NotImplementedError( '[TODO] Implement DomainDisentangleModel' )
 
     def forward(self, x, w1=None, w2=None, w3=None, w4=None, w5=None):
         x = self.feature_extractor( x )

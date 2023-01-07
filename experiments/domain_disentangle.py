@@ -35,13 +35,13 @@ class DomainDisentangleExperiment: # See point 2. of the project
         self.domain_classifier_criterion = torch.nn.CrossEntropyLoss()
 
         self.domain_category_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
-        self.domain_category_criterion = myEntropyLoss()
+        self.domain_category_criterion = myEntropyLoss
 
         self.object_domain_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
-        self.object_domain_criterion = myEntropyLoss()
+        self.object_domain_criterion = myEntropyLoss
 
         self.reconstructor_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
-        self.reconstructor_criterion = myReconstructorLoss()
+        self.reconstructor_criterion = myReconstructorLoss
 
     def save_checkpoint(self, path, iteration, best_accuracy, total_train_loss):
         checkpoint = {}
