@@ -49,7 +49,11 @@ class DomainDisentangleExperiment: # See point 2. of the project
         checkpoint['total_train_loss'] = total_train_loss
 
         checkpoint['model'] = self.model.state_dict()
-        checkpoint['optimizer'] = self.optimizer.state_dict()
+        checkpoint['object_classifier_optimizer'] = self.object_classifier_optimizer.state_dict()
+        checkpoint['domain_classifier_optimizer'] = self.domain_classifier_optimizer.state_dict()
+        checkpoint['domain_category_optimizer'] = self.domain_category_optimizer.state_dict()
+        checkpoint['object_domain_optimizer'] = self.object_domain_optimizer.state_dict()
+        checkpoint['reconstructor_optimizer'] = self.reconstructor_optimizer.state_dict()
 
         torch.save(checkpoint, path)
 
@@ -61,7 +65,11 @@ class DomainDisentangleExperiment: # See point 2. of the project
         total_train_loss = checkpoint['total_train_loss']
 
         self.model.load_state_dict(checkpoint['model'])
-        self.optimizer.load_state_dict(checkpoint['optimizer'])
+        self.object_classifier_optimizer.load_state_dict(checkpoint['object_classifier_optimizer'])
+        self.domain_classifier_optimizer.load_state_dict(checkpoint['domain_classifier_optimizer'])
+        self.domain_category_optimizer.load_state_dict(checkpoint['domain_category_optimizer'])
+        self.object_domain_optimizer.load_state_dict(checkpoint['object_domain_optimizer'])
+        self.reconstructor_optimizer.load_state_dict(checkpoint['reconstructor_optimizer'])                
 
         return iteration, best_accuracy, total_train_loss
 
