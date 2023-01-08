@@ -4,8 +4,10 @@ from models.base_model import DomainDisentangleModel
 def myReconstructorLoss(reconstructorOutputs, features):
     loss1 = torch.nn.MSELoss()
     loss2 = torch.nn.KLDivLoss()
-    R = reconstructorOutputs.detach().numpy()
-    F = features.detach().numpy()
+    R = torch.Tensor.cpu(reconstructorOutputs)
+    F = torch.Tensor.cpu(features)
+    R = R.detach().numpy()
+    F = F.detach().numpy()
     return loss1(R, F) + loss2(R, F)
 
 def myEntropyLoss(outputs):
