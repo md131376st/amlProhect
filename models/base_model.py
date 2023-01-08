@@ -88,13 +88,16 @@ class DomainDisentangleModel( nn.Module ):
         self.object_classifier = nn.Linear( 512, 7 )
 
         self.reconstructor = nn.Sequential(
-            nn.Linear( 224, 224 ),
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
             nn.ReLU(),
 
-            nn.Linear( 224, 224 ),
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
             nn.ReLU(),
 
-            nn.Linear( 224, 224 ),
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
             nn.ReLU()
         ) 
 
