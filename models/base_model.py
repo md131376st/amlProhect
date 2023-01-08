@@ -120,6 +120,6 @@ class DomainDisentangleModel( nn.Module ):
         else:
             y = self.category_encoder( x )
             z = self.domain_encoder( x )
-            y = torch.cat((y, z))
+            y = y + z
             y = self.reconstructor( y )
             return y, x
