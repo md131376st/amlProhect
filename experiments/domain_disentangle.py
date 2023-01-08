@@ -94,8 +94,8 @@ class DomainDisentangleExperiment: # See point 2. of the project
             self.object_domain_optimizer.step()
 
             self.reconstructor_optimizer.zero_grad()
-            logits = self.model(x, w5=1)
-            loss = self.reconstructor_criterion(logits, x)
+            logits, X = self.model(x, w5=1)
+            loss = self.reconstructor_criterion(logits, X)
             loss.backward()
 
         else:
