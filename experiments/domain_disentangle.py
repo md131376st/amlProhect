@@ -122,8 +122,8 @@ class DomainDisentangleExperiment: # See point 2. of the project
             loss.backward()
             self.domain_category_optimizer.step()
 
-            logits = self.model(x, w5=1)
-            loss = self.reconstructor_criterion(logits, x)
+            logits, X = self.model(x, w5=1)
+            loss = self.reconstructor_criterion(logits, X)
             loss.backward()
             self.reconstructor_optimizer.step()
 
