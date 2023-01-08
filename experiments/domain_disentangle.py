@@ -6,7 +6,7 @@ def myReconstructorLoss(reconstructorOutputs, features):
     loss2 = torch.nn.KLDivLoss()
     R = torch.Tensor.cpu(reconstructorOutputs)
     F = torch.Tensor.cpu(features)
-    return loss1(R.numpy(), F.numpy()) + loss2(R.numpy(), F.numpy())
+    return loss1(R.detach.numpy(), F.detach.numpy()) + loss2(R.detach.numpy(), F.detach.numpy())
 
 def myEntropyLoss(outputs):
     l = torch.sum(outputs)
