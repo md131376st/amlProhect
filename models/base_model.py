@@ -103,21 +103,23 @@ class DomainDisentangleModel( nn.Module ):
 
     def forward(self, x, w1=None, w2=None, w3=None, w4=None, w5=None):
         x = self.feature_extractor( x )
-        if w1 is not None:
-            x = self.category_encoder( x )
-            x = self.object_classifier( x )
-        elif w2 is not None:
-            x = self.domain_encoder( x )
-            x = self.domain_classifier( x )
-        elif w3 is not None:
-            x = self.category_encoder( x )
-            x = self.domain_classifier( x )
-        elif w4 is not None:
-            x = self.domain_encoder( x )
-            x = self.object_classifier( x )
+        if w5 is None:
+            if w1 is not None:
+                x = self.category_encoder( x )
+                x = self.object_classifier( x )
+            elif w2 is not None:
+                x = self.domain_encoder( x )
+                x = self.domain_classifier( x )
+            elif w3 is not None:
+                x = self.category_encoder( x )
+                x = self.domain_classifier( x )
+            elif w4 is not None:
+                x = self.domain_encoder( x )
+                x = self.object_classifier( x )
+            return x
         else:
             y = self.category_encoder( x )
             z = self.domain_encoder( x )
             y = torch.cat((y, z))
             y = self.reconstructor( y )
-        return y, x
+            return y, x
