@@ -87,8 +87,15 @@ class DomainDisentangleModel( nn.Module ):
         self.domain_classifier = nn.Linear( 512, 2 )
         self.object_classifier = nn.Linear( 512, 7 )
 
-        self.reconstructor = None  # TODO
-        #raise NotImplementedError( '[TODO] Implement DomainDisentangleModel' )
+        self.reconstructor = nn.Sequential(
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU()
+        ) 
 
     def forward(self, x, w1=None, w2=None, w3=None, w4=None, w5=None):
         x = self.feature_extractor( x )
@@ -104,9 +111,9 @@ class DomainDisentangleModel( nn.Module ):
         elif w4 is not None:
             x = self.domain_encoder( x )
             x = self.object_classifier( x )
-        # else:
-        #     y = self.category_encoder( x )
-        #     z = self.domain_encoder( x )
-        #     y = torch.cat((y, z))
-        #     x = self.reconstructor( y )
+        else:
+            y = self.category_encoder( x )
+            z = self.domain_encoder( x )
+            y = torch.cat((y, z))
+            x = self.reconstructor( y )
         return x
