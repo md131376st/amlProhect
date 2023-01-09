@@ -7,8 +7,8 @@ def myReconstructorLoss(reconstructorOutputs, features):
     return loss1(reconstructorOutputs, features) + loss2(reconstructorOutputs, features)
 
 def myEntropyLoss(outputs):
-    l = torch.sum(outputs)
-    l *= 1/len(outputs)
+    l = torch.sum(torch.log(outputs))
+    l /= len(outputs)
     return -l
     
 
