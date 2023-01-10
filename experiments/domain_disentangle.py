@@ -26,19 +26,11 @@ class DomainDisentangleExperiment: # See point 2. of the project
             param.requires_grad = True
 
         # Setup optimization procedure
-        self.object_classifier_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
+        self.optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss()
-
-        self.domain_classifier_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
         self.domain_classifier_criterion = torch.nn.CrossEntropyLoss()
-
-        self.domain_category_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
         self.domain_category_criterion = myEntropyLoss
-
-        self.object_domain_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
         self.object_domain_criterion = myEntropyLoss
-
-        self.reconstructor_optimizer = torch.optim.Adam(self.model.parameters(), lr=opt['lr'])
         self.reconstructor_criterion = myReconstructorLoss
 
     def save_checkpoint(self, path, iteration, best_accuracy, total_train_loss):
@@ -49,11 +41,7 @@ class DomainDisentangleExperiment: # See point 2. of the project
         checkpoint['total_train_loss'] = total_train_loss
 
         checkpoint['model'] = self.model.state_dict()
-        checkpoint['object_classifier_optimizer'] = self.object_classifier_optimizer.state_dict()
-        checkpoint['domain_classifier_optimizer'] = self.domain_classifier_optimizer.state_dict()
-        checkpoint['domain_category_optimizer'] = self.domain_category_optimizer.state_dict()
-        checkpoint['object_domain_optimizer'] = self.object_domain_optimizer.state_dict()
-        checkpoint['reconstructor_optimizer'] = self.reconstructor_optimizer.state_dict()
+        checkpoint['optimizer'] = self.optimizer.state_dict()
 
         torch.save(checkpoint, path)
 
@@ -65,48 +53,38 @@ class DomainDisentangleExperiment: # See point 2. of the project
         total_train_loss = checkpoint['total_train_loss']
 
         self.model.load_state_dict(checkpoint['model'])
-        self.object_classifier_optimizer.load_state_dict(checkpoint['object_classifier_optimizer'])
-        self.domain_classifier_optimizer.load_state_dict(checkpoint['domain_classifier_optimizer'])
-        self.domain_category_optimizer.load_state_dict(checkpoint['domain_category_optimizer'])
-        self.object_domain_optimizer.load_state_dict(checkpoint['object_domain_optimizer'])
-        self.reconstructor_optimizer.load_state_dict(checkpoint['reconstructor_optimizer'])                
-
+        self.optimizer.load_state_dict(checkpoint['optimizer'])
+        
         return iteration, best_accuracy, total_train_loss
 
     def train_iteration(self, data, train=True):
-        loss = 0
+        self.optimizer.zero_grad()
+
         if train:
             x, y, z = data
             x = x.to(self.device)
             y = y.to(self.device)
             z = z.to(self.device)
 
-            self.object_classifier_optimizer.zero_grad()
             logits = self.model(x, w1=1)
-            loss += self.object_classifier_criterion(logits, y)
-            #loss.backward()
-            self.object_classifier_optimizer.step()
+            loss = self.object_classifier_criterion(logits, y)
+            loss.backward()
 
-            self.domain_classifier_optimizer.zero_grad()
             logits = self.model(x, w2=1)
-            loss += self.domain_classifier_criterion(logits, z)
-            #loss.backward()
+            loss = self.domain_classifier_criterion(logits, z)
+            loss.backward()
 
-            self.domain_category_optimizer.zero_grad()
             logits = self.model(x, w3=1)
-            loss += self.domain_category_criterion(logits)
-            #loss.backward()
+            loss = self.domain_category_criterion(logits)
+            loss.backward()
             
-            self.object_domain_optimizer.zero_grad()
             logits = self.model(x, w4=1)
-            loss += self.object_domain_criterion(logits)
-            #loss.backward()
-            self.object_domain_optimizer.step()
+            loss = self.object_domain_criterion(logits)
+            loss.backward()
 
-            self.reconstructor_optimizer.zero_grad()
             logits, X = self.model(x, w5=1)
-            loss += self.reconstructor_criterion(logits, X)
-            #loss.backward()
+            loss = self.reconstructor_criterion(logits, X)
+            loss.backward()
 
         else:
             x, y, z = data
@@ -114,19 +92,18 @@ class DomainDisentangleExperiment: # See point 2. of the project
             z = z.to(self.device)
 
             logits = self.model(x, w2=1)
-            loss += self.domain_classifier_criterion(logits, z)
-            #loss.backward()
-            self.domain_category_optimizer.step()
+            loss = self.domain_classifier_criterion(logits, z)
+            loss.backward()
 
             logits = self.model(x, w3=1)
-            loss += self.domain_category_criterion(logits)
-            #loss.backward()
-            self.domain_category_optimizer.step()
+            loss = self.domain_category_criterion(logits)
+            loss.backward()
 
             logits, X = self.model(x, w5=1)
-            loss += self.reconstructor_criterion(logits, X)
+            loss = self.reconstructor_criterion(logits, X)
             loss.backward()
-            self.reconstructor_optimizer.step()
+
+        self.optimizer.step()
 
         return loss.item()
 
