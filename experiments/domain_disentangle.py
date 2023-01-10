@@ -74,7 +74,11 @@ class DomainDisentangleExperiment: # See point 2. of the project
         return iteration, best_accuracy, total_train_loss
 
     def train_iteration(self, data, train=True):
-        loss1, loss2, loss3, loss4, loss5 = 0
+        loss1 = 0
+        loss2 = 0
+        loss3 = 0
+        loss4 = 0
+        loss5 = 0
         if train:
             x, y, z = data
             x = x.to(self.device)
