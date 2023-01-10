@@ -74,6 +74,7 @@ class DomainDisentangleExperiment: # See point 2. of the project
         return iteration, best_accuracy, total_train_loss
 
     def train_iteration(self, data, train=True):
+        loss1, loss2, loss3, loss4, loss5 = 0
         if train:
             x, y, z = data
             x = x.to(self.device)
@@ -82,29 +83,29 @@ class DomainDisentangleExperiment: # See point 2. of the project
 
             self.object_classifier_optimizer.zero_grad()
             logits = self.model(x, w1=1)
-            loss1 = self.object_classifier_criterion(logits, y)
+            loss1 += self.object_classifier_criterion(logits, y)
             loss1.backward()
             self.object_classifier_optimizer.step()
 
             self.domain_classifier_optimizer.zero_grad()
             logits = self.model(x, w2=1)
-            loss2 = self.domain_classifier_criterion(logits, z)
+            loss2 += self.domain_classifier_criterion(logits, z)
             loss2.backward()
 
             self.domain_category_optimizer.zero_grad()
             logits = self.model(x, w3=1)
-            loss3 = self.domain_category_criterion(logits)
+            loss3 += self.domain_category_criterion(logits)
             loss3.backward()
             
             self.object_domain_optimizer.zero_grad()
             logits = self.model(x, w4=1)
-            loss4 = self.object_domain_criterion(logits)
+            loss4 += self.object_domain_criterion(logits)
             loss4.backward()
             self.object_domain_optimizer.step()
 
             self.reconstructor_optimizer.zero_grad()
             logits, X = self.model(x, w5=1)
-            loss5 = self.reconstructor_criterion(logits, X)
+            loss5 += self.reconstructor_criterion(logits, X)
             loss5.backward()
 
         else:
