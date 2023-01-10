@@ -14,9 +14,7 @@ CATEGORIES = {
 
 DOMAINS = {
     'art_painting': 0,
-    'cartoon': 1,
-    'photo': 1,
-    'sketch': 1
+    'cartoon': 1
 }
 
 class PACSDatasetBaseline(Dataset):
@@ -57,7 +55,7 @@ def read_lines_domain_disentangle(data_path, domain_name):
     for line in lines: 
         line = line.strip().split()[0].split('/')
         category_name = line[3]
-        domain_name = line[2]
+        #domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
         domain_category = (domain_idx, category_idx)
