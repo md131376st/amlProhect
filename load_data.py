@@ -131,7 +131,13 @@ def build_splits_domain_disentangle(opt):
     target_examples = read_lines_domain_disentangle(opt['data_path'], target_domain)
 
     # Compute ratios of examples for each category
-    source_category_ratios = {domain_category[1]: len(examples_list) for domain_category, examples_list in source_examples.items()}
+    source_category_ratios = dict()
+    for domain_category, examples_list in source_examples.items():
+        if domain_category[1] not in source_category_ratios.keys():
+            source_category_ratios[domain_category[1]] = len(examples_list)
+        else:
+            source_category_ratios[domain_category[1]] += len(examples_list)
+    #source_category_ratios = {domain_category[1]: len(examples_list) for domain_category, examples_list in source_examples.items()}
     source_total_examples = sum(source_category_ratios.values())
     source_category_ratios = {category_idx: c / source_total_examples for category_idx, c in source_category_ratios.items()}
 
