@@ -60,15 +60,15 @@ class DomainDisentangleExperiment: # See point 2. of the project
     def train_iteration(self, data, train=True):
         self.optimizer.zero_grad()
 
-        if train:
-            x, y, z = data
-            x = x.to(self.device)
-            y = y.to(self.device)
-            z = z.to(self.device)
+        #
+        x, y, z = data
+        x = x.to(self.device)
+        y = y.to(self.device)
+        z = z.to(self.device)
 
-            logits = self.model(x, w1=1)
-            loss = self.object_classifier_criterion(logits, y)
-            loss.backward()
+        logits = self.model(x, w1=1)
+        loss = self.object_classifier_criterion(logits, y)
+        loss.backward()
 
         #     logits = self.model(x, w2=1)
         #     loss = self.domain_classifier_criterion(logits, z)
