@@ -74,17 +74,17 @@ class DomainDisentangleExperiment: # See point 2. of the project
             loss = self.domain_classifier_criterion(logits, z)
             loss.backward()
 
-            # logits = self.model(x, w3=1)
-            # loss = self.domain_category_criterion(logits)
-            # loss.backward()
+            logits = self.model(x, w3=1)
+            loss = self.domain_category_criterion(logits)
+            loss.backward()
             
             logits = self.model(x, w4=1)
             loss = self.object_domain_criterion(logits)
             loss.backward()
 
-            # logits, X = self.model(x, w5=1)
-            # loss = self.reconstructor_criterion(logits, X)
-            # loss.backward()
+            logits, X = self.model(x, w5=1)
+            loss = self.reconstructor_criterion(logits, X)
+            loss.backward()
 
         else:
             x, y, z = data
@@ -95,13 +95,13 @@ class DomainDisentangleExperiment: # See point 2. of the project
             loss = self.domain_classifier_criterion(logits, z)
             loss.backward()
 
-            # logits = self.model(x, w3=1)
-            # loss = self.domain_category_criterion(logits)
-            # loss.backward()
+            logits = self.model(x, w3=1)
+            loss = self.domain_category_criterion(logits)
+            loss.backward()
 
-            # logits, X = self.model(x, w5=1)
-            # loss = self.reconstructor_criterion(logits, X)
-            # loss.backward()
+            logits, X = self.model(x, w5=1)
+            loss = self.reconstructor_criterion(logits, X)
+            loss.backward()
 
         self.optimizer.step()
 
