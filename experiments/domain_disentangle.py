@@ -74,15 +74,15 @@ class DomainDisentangleExperiment: # See point 2. of the project
             loss = self.domain_classifier_criterion(logits, z)
             loss.backward()
 
-            logits = self.model(x, w3=0.1)
+            logits = self.model(x, w3=0.5)
             loss = self.domain_category_criterion(logits)
             loss.backward()
             
-            logits = self.model(x, w4=0.1)
+            logits = self.model(x, w4=0.5)
             loss = self.object_domain_criterion(logits)
             loss.backward()
 
-            logits, X = self.model(x, w5=0.1)
+            logits, X = self.model(x, w5=0.5)
             loss = self.reconstructor_criterion(logits, X)
             loss.backward()
 
