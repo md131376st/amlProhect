@@ -58,6 +58,11 @@ class DomainDisentangleExperiment: # See point 2. of the project
         return iteration, best_accuracy, total_train_loss
 
     def train_iteration(self, data, train=True):
+        w1 = 1
+        w2 = 1
+        w3 = 0.1
+        w4 = 0.1
+        w5 = 0.1
         self.optimizer.zero_grad()
 
         if train:
@@ -66,24 +71,24 @@ class DomainDisentangleExperiment: # See point 2. of the project
             y = y.to(self.device)
             z = z.to(self.device)
 
-            logits = self.model(x, w1=1)
-            loss = self.object_classifier_criterion(logits, y)
+            logits = self.model(x, w1=w1)
+            loss = self.object_classifier_criterion(logits, y) * w1
             loss.backward()
 
-            logits = self.model(x, w2=1)
-            loss = self.domain_classifier_criterion(logits, z)
+            logits = self.model(x, w2=w2)
+            loss = self.domain_classifier_criterion(logits, z) * w2
             loss.backward()
 
-            logits = self.model(x, w3=0.3)
-            loss = self.domain_category_criterion(logits)
+            logits = self.model(x, w3=w3)
+            loss = self.domain_category_criterion(logits) * w3
             loss.backward()
             
-            logits = self.model(x, w4=0.3)
-            loss = self.object_domain_criterion(logits)
+            logits = self.model(x, w4=w4)
+            loss = self.object_domain_criterion(logits) * w4
             loss.backward()
 
-            logits, X = self.model(x, w5=0.3)
-            loss = self.reconstructor_criterion(logits, X)
+            logits, X = self.model(x, w5=w5)
+            loss = self.reconstructor_criterion(logits, X) * w5
             loss.backward()
 
         else:
@@ -92,15 +97,15 @@ class DomainDisentangleExperiment: # See point 2. of the project
             z = z.to(self.device)
 
             logits = self.model(x, w2=1)
-            loss = self.domain_classifier_criterion(logits, z)
+            loss = self.domain_classifier_criterion(logits, z) * w2
             loss.backward()
 
             logits = self.model(x, w3=1)
-            loss = self.domain_category_criterion(logits)
+            loss = self.domain_category_criterion(logits) * w3
             loss.backward()
 
             logits, X = self.model(x, w5=1)
-            loss = self.reconstructor_criterion(logits, X)
+            loss = self.reconstructor_criterion(logits, X) * w5
             loss.backward()
 
         self.optimizer.step()
