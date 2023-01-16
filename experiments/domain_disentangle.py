@@ -58,11 +58,11 @@ class DomainDisentangleExperiment: # See point 2. of the project
         return iteration, best_accuracy, total_train_loss
 
     def train_iteration(self, data, train=True):
-        w1 = 1
-        w2 = 1
-        w3 = 0.2
-        w4 = 0.2
-        w5 = 0.2
+        w1 = 1.0
+        w2 = 0.5
+        w3 = 0.1
+        w4 = 0.1
+        w5 = 0.1
         self.optimizer.zero_grad()
 
         if train:
