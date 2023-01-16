@@ -60,9 +60,9 @@ class DomainDisentangleExperiment: # See point 2. of the project
     def train_iteration(self, data, train=True):
         w1 = 1
         w2 = 1
-        w3 = 0.5
-        w4 = 0.5
-        w5 = 0.5
+        w3 = 0.2
+        w4 = 0.2
+        w5 = 0.2
         self.optimizer.zero_grad()
 
         if train:
