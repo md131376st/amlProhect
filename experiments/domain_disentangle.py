@@ -20,7 +20,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
     def __init__(self, opt):
         self.opt = opt
         self.device = torch.device( 'cpu' if opt['cpu'] else 'cuda:0' )
-        self.weights = torch.rand(5,1)
+        self.weights = torch.rand(5,7)
 
         # Setup model
         self.model = DomainDisentangleModel()
@@ -32,6 +32,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
         self.optimizer.add_param_group( {'params': self.weights} )
+        hi = self.weights[0]
+        h2= self.weights[1]
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.weights[0] )
         self.domain_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.weights[1] )
         self.domain_category_criterion = myEntropyLoss
