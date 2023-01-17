@@ -20,12 +20,12 @@ class DomainDisentangleExperiment:  # See point 2. of the project
     def __init__(self, opt):
         self.opt = opt
         self.device = torch.device( 'cpu' if opt['cpu'] else 'cuda:0' )
-        self.weights = torch.rand(1,5)
+        self.weights = torch.rand(5,1)
 
         # Setup model
         self.model = DomainDisentangleModel()
         self.model.train()
-        self.model.to( self.device )
+
         for param in self.model.parameters():
             param.requires_grad = True
 
@@ -38,6 +38,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
         self.object_domain_criterion = myEntropyLoss
         self.reconstructor_criterion = myReconstructorLoss
 
+        self.model.to( self.device )
     def save_checkpoint(self, path, iteration, best_accuracy, total_train_loss):
         checkpoint = {}
 
