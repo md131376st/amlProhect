@@ -44,7 +44,7 @@ def main(opt):
             logging.info( opt )
 
         # Train loop
-        for i in [0.00001, 0.0001, 0.001]:
+        for i in [0.00001]:
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
