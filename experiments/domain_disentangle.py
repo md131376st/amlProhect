@@ -20,11 +20,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
     def __init__(self, opt):
         self.opt = opt
         self.device = torch.device( 'cpu' if opt['cpu'] else 'cuda:0' )
-        self.w1 = torch.rand(1)
-        self.w2 = torch.rand(1)
-        self.w3 = torch.rand(1)
-        self.w4 = torch.rand(1)
-        self.w5 = torch.rand(1)
+        self.weights = torch.rand(1,5)
+
         # Setup model
         self.model = DomainDisentangleModel()
         self.model.train()
@@ -34,9 +31,9 @@ class DomainDisentangleExperiment:  # See point 2. of the project
 
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
-        self.optimizer.add_param_group( {"lossweight":[self.w1, self.w2, self.w3, self.w4, self.w5]} )
-        self.object_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.w1 )
-        self.domain_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.w2 )
+        self.optimizer.add_param_group( {'params': self.weights} )
+        self.object_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.weights[0] )
+        self.domain_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.weights[1] )
         self.domain_category_criterion = myEntropyLoss
         self.object_domain_criterion = myEntropyLoss
         self.reconstructor_criterion = myReconstructorLoss
@@ -74,24 +71,24 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             y = y.to( self.device )
             z = z.to( self.device )
 
-            logits = self.model( x, w1=self.w1 )
+            logits = self.model( x, w1=self.weights[0] )
             loss = self.object_classifier_criterion( logits, y )
             loss.backward()
 
-            logits = self.model( x, w2=self.w2 )
+            logits = self.model( x, w2=self.weights[1] )
             loss = self.domain_classifier_criterion( logits, z )
             loss.backward()
 
-            logits = self.model( x, w3=self.w3 )
-            loss = self.domain_category_criterion( logits ) * self.w3
+            logits = self.model( x, w3=self.weights[2] )
+            loss = self.domain_category_criterion( logits ) *self.weights[2]
             loss.backward()
 
-            logits = self.model( x, w4=self.w4 )
-            loss = self.object_domain_criterion( logits ) * self.w4
+            logits = self.model( x, w4=self.weights[3])
+            loss = self.object_domain_criterion( logits ) * self.weights[3]
             loss.backward()
 
-            logits, X = self.model( x, w5=self.w5 )
-            loss = self.reconstructor_criterion( logits, X ) * self.w5
+            logits, X = self.model( x, w5=self.weights[4] )
+            loss = self.reconstructor_criterion( logits, X ) * self.weights[4]
             loss.backward()
 
         else:
@@ -100,15 +97,15 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             z = z.to( self.device )
 
             logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * self.w2
+            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
             loss.backward()
 
             logits = self.model( x, w3=1 )
-            loss = self.domain_category_criterion( logits ) * self.w3
+            loss = self.domain_category_criterion( logits ) * self.weights[2]
             loss.backward()
 
             logits, X = self.model( x, w5=1 )
-            loss = self.reconstructor_criterion( logits, X ) * self.w5
+            loss = self.reconstructor_criterion( logits, X ) * self.weights[4]
             loss.backward()
 
         self.optimizer.step()
