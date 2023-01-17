@@ -1,8 +1,7 @@
 import torch
 
 from models.base_model import DomainDisentangleModel
-
-
+import torch.nn as nn
 def myReconstructorLoss(reconstructorOutputs, features):
     loss1 = torch.nn.MSELoss()
     loss2 = torch.nn.KLDivLoss()
@@ -20,7 +19,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
     def __init__(self, opt):
         self.opt = opt
         self.device = torch.device( 'cpu' if opt['cpu'] else 'cuda:0' )
-        self.weights = torch.rand(5)
+        self.weights = nn.Parameter(torch.rand(5))
 
         # Setup model
         self.model = DomainDisentangleModel()
@@ -30,8 +29,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             param.requires_grad = True
 
         # Setup optimization procedure
-        self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
-        self.optimizer.add_param_group( {'params': self.weights} )
+        self.optimizer = torch.optim.Adam([ {'params': self.model.parameters()},
+                                            {'params': self.weights, 'lr': 1e-8 }, ], lr=opt['lr'] )
 
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss(  )
         self.domain_classifier_criterion = torch.nn.CrossEntropyLoss( )
@@ -76,15 +75,15 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             logits = self.model( x, w1=self.weights[0] )
             loss = self.object_classifier_criterion( logits, y ) *self.weights[0]
             loss.backward()
-
+            print( self.weights )
             logits = self.model( x, w2=self.weights[1] )
             loss = self.domain_classifier_criterion( logits, z )*self.weights[1]
             loss.backward()
-
+            print( self.weights )
             logits = self.model( x, w3=self.weights[2] )
             loss = self.domain_category_criterion( logits ) *self.weights[2]
             loss.backward()
-
+            print( self.weights )
             logits = self.model( x, w4=self.weights[3])
             loss = self.object_domain_criterion( logits ) * self.weights[3]
             loss.backward()
@@ -111,6 +110,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             loss.backward()
 
         self.optimizer.step()
+        print("after optimization")
+        print( self.weights )
 
         return loss.item()
 
