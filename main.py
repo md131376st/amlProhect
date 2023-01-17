@@ -47,7 +47,7 @@ def main(opt):
 
         # Train loop
         for i in [0.000001, 0.00001, 0.0001, 0.001]:
-            weight = [torch.randint(1, 10) / i, torch.randint(1, 10) / i, torch.randint(1, 10) / i]
+            weight = [torch.randint(low=1, high=10) / i, torch.randint(low=1, high=10) / i, torch.randint(low=1, high=10) / i]
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
