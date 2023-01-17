@@ -54,6 +54,7 @@ def main(opt):
                 if opt['experiment'] == 'domain_disentangle':
                     for i in range( 1000 ):
                         weight = torch.rand(5)/1000
+                        print(weight)
                         total_train_loss += experiment.train_iteration( data, True, weight )
 
                         if iteration % opt['print_every'] == 0:
@@ -78,7 +79,7 @@ def main(opt):
                         if iteration <= opt['max_iterations']*1000:
                             for data in test_loader:
 
-                                total_train_loss += experiment.train_iteration( data, train=False )
+                                total_train_loss += experiment.train_iteration( data, train=False, weight=weight )
 
                                 if iteration % opt['print_every'] == 0:
                                     logging.info( f'[TRAIN - {iteration}] Loss: {total_train_loss / (iteration + 1)}' )
