@@ -74,24 +74,24 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             y = y.to( self.device )
             z = z.to( self.device )
 
-            logits = self.model( x, w1=self.weights[0] )
-            loss = self.object_classifier_criterion( logits, y ) * self.weights[0]
+            logits = self.model( x, w1=1 )
+            loss = self.object_classifier_criterion( logits, y ) * 1
             loss.backward()
 
-            logits = self.model( x, w2=self.weights[1] )
-            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
+            logits = self.model( x, w2=1 )
+            loss = self.domain_classifier_criterion( logits, z ) * 1
             loss.backward()
 
-            logits = self.model( x, w3=self.weights[2] )
-            loss = self.domain_category_criterion( logits ) * self.weights[2]
+            logits = self.model( x, w3=self.weights[0] )
+            loss = self.domain_category_criterion( logits ) * self.weights[0]
             loss.backward()
 
-            logits = self.model( x, w4=self.weights[3] )
-            loss = self.object_domain_criterion( logits ) * self.weights[3]
+            logits = self.model( x, w4=self.weights[1] )
+            loss = self.object_domain_criterion( logits ) * self.weights[1]
             loss.backward()
 
-            logits, X = self.model( x, w5=self.weights[4] )
-            loss = self.reconstructor_criterion( logits, X ) * self.weights[4]
+            logits, X = self.model( x, w5=self.weights[2] )
+            loss = self.reconstructor_criterion( logits, X ) * self.weights[2]
             loss.backward()
 
         else:
@@ -100,15 +100,15 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             z = z.to( self.device )
 
             logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
+            loss = self.domain_classifier_criterion( logits, z ) * 1
             loss.backward()
 
-            logits = self.model( x, w3=1 )
-            loss = self.domain_category_criterion( logits ) * self.weights[2]
+            logits = self.model( x, w3=self.weights[0] )
+            loss = self.domain_category_criterion( logits ) * self.weights[0]
             loss.backward()
 
-            logits, X = self.model( x, w5=1 )
-            loss = self.reconstructor_criterion( logits, X ) * self.weights[4]
+            logits, X = self.model( x, w5=self.weights[2] )
+            loss = self.reconstructor_criterion( logits, X ) * self.weights[2]
             loss.backward()
 
         self.optimizer.step()

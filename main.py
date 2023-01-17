@@ -46,8 +46,8 @@ def main(opt):
             logging.info( opt )
 
         # Train loop
-        for i in range( 1000 ):
-            weight = torch.rand( 5 ) / 1000
+        for i in [0.000001, 0.00001, 0.0001, 0.001]:
+            weight = [torch.randint(1, 10) / i, torch.randint(1, 10) / i, torch.randint(1, 10) / i]
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
