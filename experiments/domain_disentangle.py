@@ -20,7 +20,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
     def __init__(self, opt):
         self.opt = opt
         self.device = torch.device( 'cpu' if opt['cpu'] else 'cuda:0' )
-        self.weights = torch.rand(5,7)
+        self.weights = torch.rand(5)
 
         # Setup model
         self.model = DomainDisentangleModel()
@@ -32,10 +32,9 @@ class DomainDisentangleExperiment:  # See point 2. of the project
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
         self.optimizer.add_param_group( {'params': self.weights} )
-        hi = self.weights[0]
-        h2= self.weights[1]
-        self.object_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.weights[0] )
-        self.domain_classifier_criterion = torch.nn.CrossEntropyLoss( weight=self.weights[1] )
+
+        self.object_classifier_criterion = torch.nn.CrossEntropyLoss(  )
+        self.domain_classifier_criterion = torch.nn.CrossEntropyLoss( )
         self.domain_category_criterion = myEntropyLoss
         self.object_domain_criterion = myEntropyLoss
         self.reconstructor_criterion = myReconstructorLoss
@@ -73,13 +72,13 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             x = x.to( self.device )
             y = y.to( self.device )
             z = z.to( self.device )
-
+            print(self.weights)
             logits = self.model( x, w1=self.weights[0] )
-            loss = self.object_classifier_criterion( logits, y )
+            loss = self.object_classifier_criterion( logits, y ) *self.weights[0]
             loss.backward()
 
             logits = self.model( x, w2=self.weights[1] )
-            loss = self.domain_classifier_criterion( logits, z )
+            loss = self.domain_classifier_criterion( logits, z )*self.weights[1]
             loss.backward()
 
             logits = self.model( x, w3=self.weights[2] )
