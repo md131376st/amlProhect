@@ -30,8 +30,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             param.requires_grad = True
 
         # Setup optimization procedure
-        self.optimizer = torch.optim.Adam( [{'params': self.model.parameters()},
-                                            {'params': self.weights, 'lr': 1e-8}, ], lr=opt['lr'] )
+        self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
 
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss()
         self.domain_classifier_criterion = torch.nn.CrossEntropyLoss()
@@ -66,7 +65,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
         return iteration, best_accuracy, total_train_loss
 
     def train_iteration(self, data, train=True, weight=None):
-        self.weights=weight
+        self.weights = weight
         self.optimizer.zero_grad()
 
         if train:
