@@ -20,11 +20,11 @@ class DomainDisentangleExperiment:  # See point 2. of the project
     def __init__(self, opt):
         self.opt = opt
         self.device = torch.device( 'cpu' if opt['cpu'] else 'cuda:0' )
-        self.w1 = torch.rand()
-        self.w2 = torch.rand()
-        self.w3 = torch.rand()
-        self.w4 = torch.rand()
-        self.w5 = torch.rand()
+        self.w1 = torch.rand(1)
+        self.w2 = torch.rand(1)
+        self.w3 = torch.rand(1)
+        self.w4 = torch.rand(1)
+        self.w5 = torch.rand(1)
         # Setup model
         self.model = DomainDisentangleModel()
         self.model.train()
