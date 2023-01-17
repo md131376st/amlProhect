@@ -34,9 +34,7 @@ def main(opt):
     experiment, train_loader, validation_loader, test_loader = setup_experiment( opt )
 
     if not opt['test']:  # Skip training if '--test' flag is set
-        iteration = 0
-        best_accuracy = 0
-        total_train_loss = 0
+        
 
         # Restore last checkpoint
         if os.path.exists( f'{opt["output_path"]}/last_checkpoint.pth' ):
@@ -46,7 +44,10 @@ def main(opt):
             logging.info( opt )
 
         # Train loop
-        for i in [0.000001, 0.00001, 0.0001, 0.001]:
+        for i in [0.00001, 0.0001, 0.001]:
+            iteration = 0
+            best_accuracy = 0
+            total_train_loss = 0
             weight = torch.rand(3) * i
             print( weight )
             while iteration < opt['max_iterations']:
