@@ -48,7 +48,7 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.rand(3) * i
+            weight = torch.tensor( [7.5448e-05, 8.6793e-05, 5.4548e-07] )
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
