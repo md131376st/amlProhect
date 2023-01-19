@@ -75,7 +75,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
 
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
-            for param in self.model.doamin_classifier.parameters():
+            for param in self.model.domain_classifier.parameters():
                 param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
