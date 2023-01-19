@@ -74,11 +74,11 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             z = z.to( self.device )
 
             logits = self.model( x, w1=1 )
-            loss = self.object_classifier_criterion( logits, y ) * 1
+            loss = self.object_classifier_criterion( logits, y ) * 5
             loss.backward()
 
             logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * 1
+            loss = self.domain_classifier_criterion( logits, z ) * 5
             loss.backward()
 
             logits = self.model( x, w3=self.weights[0] )
@@ -99,7 +99,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             z = z.to( self.device )
 
             logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * 1
+            loss = self.domain_classifier_criterion( logits, z ) * 5
             loss.backward()
 
             logits = self.model( x, w3=self.weights[0] )
