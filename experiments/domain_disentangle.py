@@ -109,8 +109,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
-            for param in self.model.domain_classifier.parameters():
-                param.requires_grad = False
+            # for param in self.model.domain_classifier.parameters():
+            #     param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
@@ -120,8 +120,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = True
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = True
-            for param in self.model.domain_classifier.parameters():
-                param.requires_grad = True
+            # for param in self.model.domain_classifier.parameters():
+            #     param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
@@ -129,8 +129,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = False
-            for param in self.model.object_classifier.parameters():
-                param.requires_grad = False
+            # for param in self.model.object_classifier.parameters():
+            #     param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w4=self.weights[1] )
@@ -140,8 +140,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = True
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = True
-            for param in self.model.object_classifier.parameters():
-                param.requires_grad = True
+            # for param in self.model.object_classifier.parameters():
+            #     param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
@@ -182,8 +182,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
-            for param in self.model.domain_classifier.parameters():
-                param.requires_grad = False
+            # for param in self.model.domain_classifier.parameters():
+            #     param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
@@ -193,8 +193,8 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = True
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = True
-            for param in self.model.domain_classifier.parameters():
-                param.requires_grad = True
+            # for param in self.model.domain_classifier.parameters():
+            #     param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
