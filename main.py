@@ -50,7 +50,7 @@ def main(opt):
             while iteration < opt['max_iterations']:
                 for data in train_loader:
 
-                    total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
+                    total_train_loss += experiment.train_iteration( data )
 
                     if iteration % opt['print_every'] == 0:
                         logging.info(
