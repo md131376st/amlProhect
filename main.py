@@ -85,7 +85,7 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.tensor( [0.01, 0.01, 0.01] )
+            weight = torch.tensor( [0.1, 0.1, 0.1] )
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
@@ -101,14 +101,18 @@ def main(opt):
                         val_accuracy, val_loss = experiment.validate( validation_loader )
                         logging.info(
                             f'[VAL - {iteration} Weight- {weight}]] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
+                        
+                        experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
+                                                    best_accuracy,
+                                                    total_train_loss )
                         if val_accuracy > best_accuracy:
                             best_accuracy = val_accuracy
                             experiment.save_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth', iteration,
                                                         best_accuracy, total_train_loss )
-                        experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
-                                                    best_accuracy,
-                                                    total_train_loss )
-
+                        elif best_accuracy - val_accuracy > 0.3:
+                            break    
+                        
+                            
                     iteration += 1
                     if iteration > opt['max_iterations']:
                         break
@@ -126,13 +130,16 @@ def main(opt):
                             val_accuracy, val_loss = experiment.validate( validation_loader )
                             logging.info(
                                 f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
+                            
+                            experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
+                                                        best_accuracy,
+                                                        total_train_loss )
                             if val_accuracy > best_accuracy:
                                 best_accuracy = val_accuracy
                                 experiment.save_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth', iteration,
                                                             best_accuracy, total_train_loss )
-                            experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
-                                                        best_accuracy,
-                                                        total_train_loss )
+                            elif best_accuracy - val_accuracy > 0.3:
+                                break 
 
                         iteration += 1
                         if iteration > opt['max_iterations']:
