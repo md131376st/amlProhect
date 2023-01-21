@@ -49,8 +49,8 @@ def main(opt):
             total_train_loss = 0
             while iteration < opt['max_iterations']:
                 for data in train_loader:
-                    if opt['experiment'] == 'domain_disentangle':
-                        total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
+
+                    total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
                     if iteration % opt['print_every'] == 0:
                         logging.info(
@@ -84,12 +84,12 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.tensor( [0.1, 0.1, 0.01] )
+            weight = torch.tensor( [0.01, 0.01, 0.0001] )
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
-                    if opt['experiment'] == 'domain_disentangle':
-                        total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
+
+                    total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
                     if iteration % opt['print_every'] == 0:
                         logging.info(
