@@ -2,8 +2,8 @@ import torch
 from models.base_model import DomainDisentangleModel
 
 
-def myEntropyLoss(outputs, features):
-    l = torch.sum( torch.log( outputs ) )
+def myEntropyLoss(outputs):
+    l = torch.sum( torch.log( torch.abs(outputs) ) )
     l /= len( outputs )
     return -l
 
@@ -111,7 +111,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
-            loss = self.domain_category_criterion( logits, x ) * self.weights[0]
+            loss = self.domain_category_criterion( logits ) * self.weights[0]
             print(loss)
             loss.backward()
             for param in self.model.domain_encoder.parameters():
@@ -128,7 +128,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w4=self.weights[1] )
-            loss = self.object_domain_criterion( logits, x ) * self.weights[1]
+            loss = self.object_domain_criterion( logits ) * self.weights[1]
             print(loss)
             loss.backward()
             for param in self.model.category_encoder.parameters():
@@ -178,7 +178,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
-            loss = self.domain_category_criterion( logits, x ) * self.weights[0]
+            loss = self.domain_category_criterion( logits ) * self.weights[0]
             loss.backward()
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = True
