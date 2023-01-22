@@ -2,16 +2,15 @@ import torch
 from models.base_model import DomainDisentangleModel
 
 
-def myReconstructorLoss(reconstructorOutputs, features):
-    loss1 = torch.nn.MSELoss()
-    loss2 = torch.nn.KLDivLoss()
-    return loss1( reconstructorOutputs, features ) + loss2( reconstructorOutputs, features )
-
-
 def myEntropyLoss(outputs):
     l = torch.sum( torch.log( outputs ) )
     l /= len( outputs )
     return -l
+
+def myReconstructorLoss(reconstructorOutputs, features):
+    loss1 = torch.nn.MSELoss()
+    loss2 = torch.nn.KLDivLoss()
+    return loss1( reconstructorOutputs, features ) + loss2( reconstructorOutputs, features )
 
 
 class DomainDisentangleExperiment:  # See point 2. of the project
@@ -82,9 +81,9 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             logits = self.model( x, w1=1 )
             loss = self.object_classifier_criterion( logits, y ) * 1.0
             loss.backward()
-            for param in self.model.category_encoder.parameters():
+            for param in self.model.domain_encoder.parameters():
                 param.requires_grad = True
-            for param in self.model.object_classifier.parameters():
+            for param in self.model.domain_classifier.parameters():
                 param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
@@ -109,8 +108,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
-            # for param in self.model.domain_classifier.parameters():
-            #     param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
@@ -120,8 +117,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = True
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = True
-            # for param in self.model.domain_classifier.parameters():
-            #     param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
@@ -129,8 +124,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = False
-            # for param in self.model.object_classifier.parameters():
-            #     param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w4=self.weights[1] )
@@ -140,8 +133,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = True
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = True
-            # for param in self.model.object_classifier.parameters():
-            #     param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
@@ -182,8 +173,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
-            # for param in self.model.domain_classifier.parameters():
-            #     param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
@@ -193,8 +182,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = True
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = True
-            # for param in self.model.domain_classifier.parameters():
-            #     param.requires_grad = True
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 

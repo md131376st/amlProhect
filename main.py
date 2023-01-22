@@ -1,7 +1,6 @@
 import logging
 import os
 import torch
-
 from experiments.baseline import BaselineExperiment
 from experiments.clip_disentangle import CLIPDisentangleExperiment
 from experiments.domain_disentangle import DomainDisentangleExperiment
@@ -74,6 +73,7 @@ def main(opt):
                         break
         
         elif opt['experiment'] == 'domain_disentangle':  
+            
             # Restore last checkpoint
             if os.path.exists( f'{opt["output_path"]}/last_checkpoint.pth' ):
                 iteration, best_accuracy, total_train_loss = experiment.load_checkpoint(
