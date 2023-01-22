@@ -85,7 +85,7 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.tensor( [0.0001, 0.0001, 0.00001] )
+            weight = torch.tensor( [0.0, 0.0, 0.0] )
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
