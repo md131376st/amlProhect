@@ -3,8 +3,7 @@ from models.base_model import DomainDisentangleModel
 
 
 def myEntropyLoss(outputs):
-    s = torch.nn.Softmax(outputs)
-    l = torch.sum( torch.log( s ) )
+    l = torch.sum(torch.nn.LogSoftmax(outputs))
     l /= len( outputs )
     return -l
 
