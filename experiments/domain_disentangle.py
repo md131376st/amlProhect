@@ -2,7 +2,7 @@ import torch
 from models.base_model import DomainDisentangleModel
 
 
-def myEntropyLoss(outputs):
+def myEntropyLoss(outputs, features):
     l = torch.sum( torch.log( outputs ) )
     l /= len( outputs )
     return -l
