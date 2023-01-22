@@ -85,7 +85,7 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.tensor( [1.0, 0.5, 0.2, 0.2, 0.2] )
+            weight = torch.tensor( [1.0, 1.0, 2.0, 2.0, 2.0] )
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
@@ -94,13 +94,13 @@ def main(opt):
 
                     if iteration % opt['print_every'] == 0:
                         logging.info(
-                            f'[TRAIN - {iteration} - Weight- {weight}] Loss: {total_train_loss / (iteration + 1)}' )
+                            f'[TRAIN - {iteration}] Loss: {total_train_loss / (iteration + 1)}' )
 
                     if iteration % opt['validate_every'] == 0:
                         # Run validation
                         val_accuracy, val_loss = experiment.validate( validation_loader )
                         logging.info(
-                            f'[VAL - {iteration} Weight- {weight}]] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
+                            f'[VAL - {iteration}]] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
                         if val_accuracy > best_accuracy:
                             best_accuracy = val_accuracy
                             experiment.save_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth', iteration,
