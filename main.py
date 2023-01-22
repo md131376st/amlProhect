@@ -73,7 +73,7 @@ def main(opt):
                         break
         
         elif opt['experiment'] == 'domain_disentangle':  
-            
+
             # Restore last checkpoint
             if os.path.exists( f'{opt["output_path"]}/last_checkpoint.pth' ):
                 iteration, best_accuracy, total_train_loss = experiment.load_checkpoint(
@@ -85,7 +85,7 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.tensor( [0.0, 0.0, 0.0] )
+            weight = torch.tensor( [0.00000000001, 0.00000000001, 0.000000000001] )
             print( weight )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
