@@ -80,6 +80,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             logits = self.model( x, w1=1 )
             loss = self.object_classifier_criterion( logits, y ) * 1.0
+            print("LLL")
             print(loss)
             loss.backward()
             for param in self.model.domain_encoder.parameters():
