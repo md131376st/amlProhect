@@ -79,7 +79,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w1=1 )
-            loss = self.object_classifier_criterion( logits, y ) * 1.0
+            loss = self.object_classifier_criterion( logits, y )
             print("LLL")
             print(loss)
             loss.backward()
@@ -166,7 +166,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * 0.000000000000001
+            loss = self.domain_classifier_criterion( logits, z )
             loss.backward()
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = True
