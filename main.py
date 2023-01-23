@@ -133,10 +133,15 @@ def main(opt):
                             experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
                                                         best_accuracy,
                                                         total_train_loss )
-
+                        
                         iteration += 1
                         if iteration > opt['max_iterations']:
                             break
+
+                        if total_train_loss < 0.001:
+                            break
+                if total_train_loss < 0.001:
+                    break
 
     # Test
     experiment.load_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth' )
