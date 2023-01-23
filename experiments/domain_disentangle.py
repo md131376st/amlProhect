@@ -89,21 +89,21 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
-            for param in self.model.category_encoder.parameters():
-                param.requires_grad = False
-            for param in self.model.object_classifier.parameters():
-                param.requires_grad = False
-            for param in self.model.reconstructor.parameters():
-                param.requires_grad = False
-            logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
-            loss.backward()
-            for param in self.model.category_encoder.parameters():
-                param.requires_grad = True
-            for param in self.model.object_classifier.parameters():
-                param.requires_grad = True
-            for param in self.model.reconstructor.parameters():
-                param.requires_grad = True
+            # for param in self.model.category_encoder.parameters():
+            #     param.requires_grad = False
+            # for param in self.model.object_classifier.parameters():
+            #     param.requires_grad = False
+            # for param in self.model.reconstructor.parameters():
+            #     param.requires_grad = False
+            # logits = self.model( x, w2=1 )
+            # loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
+            # loss.backward()
+            # for param in self.model.category_encoder.parameters():
+            #     param.requires_grad = True
+            # for param in self.model.object_classifier.parameters():
+            #     param.requires_grad = True
+            # for param in self.model.reconstructor.parameters():
+            #     param.requires_grad = True
 
             # for param in self.model.domain_encoder.parameters():
             #     param.requires_grad = False
@@ -156,21 +156,21 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             x = x.to( self.device )
             z = z.to( self.device )
 
-            for param in self.model.category_encoder.parameters():
-                param.requires_grad = False
-            for param in self.model.object_classifier.parameters():
-                param.requires_grad = False
-            for param in self.model.reconstructor.parameters():
-                param.requires_grad = False
-            logits = self.model( x, w2=1 )
-            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
-            loss.backward()
-            for param in self.model.category_encoder.parameters():
-                param.requires_grad = True
-            for param in self.model.object_classifier.parameters():
-                param.requires_grad = True
-            for param in self.model.reconstructor.parameters():
-                param.requires_grad = True
+            # for param in self.model.category_encoder.parameters():
+            #     param.requires_grad = False
+            # for param in self.model.object_classifier.parameters():
+            #     param.requires_grad = False
+            # for param in self.model.reconstructor.parameters():
+            #     param.requires_grad = False
+            # logits = self.model( x, w2=1 )
+            # loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
+            # loss.backward()
+            # for param in self.model.category_encoder.parameters():
+            #     param.requires_grad = True
+            # for param in self.model.object_classifier.parameters():
+            #     param.requires_grad = True
+            # for param in self.model.reconstructor.parameters():
+            #     param.requires_grad = True
             
             # for param in self.model.domain_encoder.parameters():
             #     param.requires_grad = False
