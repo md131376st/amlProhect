@@ -113,7 +113,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[0] )
             loss = self.domain_category_criterion( logits ) * self.weights[2]
-            print(loss)
+            #print(loss)
             loss.backward()
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = True
@@ -130,7 +130,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
                 param.requires_grad = False
             logits = self.model( x, w4=self.weights[1] )
             loss = self.object_domain_criterion( logits ) * self.weights[3]
-            print(loss)
+            #print(loss)
             loss.backward()
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = True
