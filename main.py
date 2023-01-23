@@ -89,9 +89,9 @@ def main(opt):
             logging.info(
                 f'WEIGHT: {weight}' )
             while iteration < opt['max_iterations']:
-                for data in train_loader:
-
-                    total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
+                # for data in train_loader:
+                data = next(iter(train_loader))
+                total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
                     # if iteration % opt['print_every'] == 0:
                     #     logging.info(
@@ -114,10 +114,10 @@ def main(opt):
                     # if iteration > opt['max_iterations']:
                     #     break
 
-                # if iteration <= opt['max_iterations']:
-                for data in test_loader:
-
-                    total_train_loss += experiment.train_iteration( data, train=False, weight=weight )
+                #if iteration <= opt['max_iterations']:
+                    #for data in test_loader:
+                data = next(iter(test_loader))
+                total_train_loss += experiment.train_iteration( data, train=False, weight=weight )
 
                 if iteration % opt['print_every'] == 0:
                     logging.info( f'[TRAIN - {iteration}] Loss: {total_train_loss / (iteration + 1)}' )
