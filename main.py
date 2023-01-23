@@ -87,6 +87,8 @@ def main(opt):
             total_train_loss = 0
             weight = torch.tensor( [5.0, 3.0, 1.0, 1.0, 3.0] )
             print( weight )
+            logging.info(
+                f'WEIGHT: {weight}' )
             while iteration < opt['max_iterations']:
                 for data in train_loader:
 
