@@ -155,6 +155,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             x, y, z = data
             x = x.to( self.device )
             z = z.to( self.device )
+            loss = 0
 
             # for param in self.model.category_encoder.parameters():
             #     param.requires_grad = False
