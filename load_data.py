@@ -14,7 +14,9 @@ CATEGORIES = {
 
 DOMAINS = {
     'art_painting': 0,
-    'sketch': 1
+    'cartoon': 1,
+    'sketch': 1,
+    'photo': 1
 }
 
 class PACSDatasetBaseline(Dataset):
