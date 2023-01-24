@@ -85,7 +85,7 @@ def main(opt):
             iteration = 0
             best_accuracy = 0
             total_train_loss = 0
-            weight = torch.tensor( [1.0, 0.5, 0.3, 0.005, 0.08] )
+            weight = torch.tensor( [1.0, 0.5, 0.7, 0.001, 0.0001] )
             logging.info(
                 f'WEIGHT: {weight}' )
             train_loader_iterator = iter(train_loader)
