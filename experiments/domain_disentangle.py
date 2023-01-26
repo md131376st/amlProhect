@@ -10,9 +10,9 @@ def myEntropyLoss(outputs):
 
 def myReconstructorLoss(reconstructorOutputs, features):
     loss1 = torch.nn.MSELoss()
-    #loss2 = torch.nn.KLDivLoss()
-    #return loss1( reconstructorOutputs, features ) + loss2( reconstructorOutputs, features )
-    return loss1( reconstructorOutputs, features )
+    loss2 = torch.nn.KLDivLoss()
+    return loss1( reconstructorOutputs, features ) + loss2( reconstructorOutputs, features )
+
 
 class DomainDisentangleExperiment:  # See point 2. of the project
 
