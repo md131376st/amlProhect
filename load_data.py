@@ -262,7 +262,7 @@ def read_label_file(path, source, target):
 
 def get_label_info(info_list, target_address):
     value = str()
-    hi = target_address.removeprefix("data/PACS/kfold/")
+
     info = list(
         item for item in info_list if item["image_name"] == target_address.removeprefix("data/PACS/kfold/"))
     for item in info:
