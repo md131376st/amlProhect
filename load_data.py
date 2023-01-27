@@ -292,7 +292,7 @@ def build_splits_clip_disentangle(opt):
     # Build splits - we train only on the source domain (Art Painting)
     val_split_length = source_total_examples * 0.2  # 20% of the training split used for validation
     # read label file
-    domain_label, source_label = read_label_file(opt['data_path'], source_domain, target_domain)
+    source_label, domain_label = read_label_file(opt['data_path'], source_domain, target_domain)
     train_examples = []
     val_examples = []
     test_examples = []
@@ -302,7 +302,7 @@ def build_splits_clip_disentangle(opt):
         category_idx = domain_category[1]
         split_idx = round(source_category_ratios[category_idx] * val_split_length)
         for i, example in enumerate(examples_list):
-            label = get_label_info(domain_label, example)
+            label = get_label_info(source_label, example)
             if i > split_idx:
 
                 train_examples.append(
@@ -315,7 +315,7 @@ def build_splits_clip_disentangle(opt):
         domain_idx = domain_category[0]
         category_idx = domain_category[1]
         for example in examples_list:
-            label = get_label_info(source_label, example)
+            label = get_label_info(domain_label, example)
             test_examples.append(
                 [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, domain_label]
 
