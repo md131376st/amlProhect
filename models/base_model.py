@@ -1,5 +1,6 @@
 import torch.nn as nn
 from torchvision.models import resnet18
+import clip
 
 
 class FeatureExtractor( nn.Module ):
@@ -126,3 +127,89 @@ class DomainDisentangleModel( nn.Module ):
             y = y + z
             y = self.reconstructor( y )
             return y, x
+
+class CLIPDisentangleModel( nn.Module ):
+    def __init__(self):
+        super( DomainDisentangleModel, self ).__init__()
+        self.clip_model, _ = clip.load('ViT-B/32', device='cpu')
+        #self.clip_model = self.clip_model.to(device)
+        #self.clip_model.eval()
+
+        self.feature_extractor = FeatureExtractor()
+
+        self.domain_encoder = nn.Sequential(
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU()
+        )
+        self.category_encoder = nn.Sequential(
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU()
+        )
+
+        self.domain_classifier = nn.Linear( 512, 2 )
+        self.object_classifier = nn.Linear( 512, 7 )
+
+        self.reconstructor = nn.Sequential(
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU(),
+
+            nn.Linear( 512, 512 ),
+            nn.BatchNorm1d( 512 ),
+            nn.ReLU()
+        ) 
+
+    def forward(self, x, y=None, w1=None, w2=None, w3=None, w4=None, w5=None):
+        x = self.feature_extractor( x )
+        if y is None:
+            if w5 is None:
+                if w1 is not None:
+                    x = self.category_encoder( x )
+                    x = self.object_classifier( x )
+                elif w2 is not None:
+                    x = self.domain_encoder( x )
+                    x = self.domain_classifier( x )
+                elif w3 is not None:
+                    x = self.category_encoder( x )
+                    x = self.domain_classifier( x )
+                elif w4 is not None:
+                    x = self.domain_encoder( x )
+                    x = self.object_classifier( x )
+                return x
+            else:
+                y = self.category_encoder( x )
+                z = self.domain_encoder( x )
+                y = y + z
+                y = self.reconstructor( y )
+                return y, x
+        else:
+            x = self.domain_encoder( x )
+            tokenized_text = clip.tokenize(y)
+            text_features = self.clip_model.encode_text(tokenized_text)
+            return x, text_features

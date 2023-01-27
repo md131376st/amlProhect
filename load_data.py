@@ -75,7 +75,6 @@ def read_lines_domain_disentangle(data_path, domain_name):
     for line in lines:
         line = line.strip().split()[0].split('/')
         category_name = line[3]
-        # domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
         domain_category = (domain_idx, category_idx)
@@ -96,7 +95,6 @@ def read_lines_clip_disentangle(data_path, domain_name):
     for line in lines:
         line = line.strip().split()[0].split('/')
         category_name = line[3]
-        # domain_name = line[2]
         category_idx = CATEGORIES[category_name]
         domain_idx = DOMAINS[domain_name]
         domain_category = (domain_idx, category_idx)
@@ -274,8 +272,8 @@ def build_splits_clip_disentangle(opt):
     source_domain = 'art_painting'
     target_domain = opt['target_domain']
 
-    source_examples = read_lines_clip_disentangle(opt['data_path'], source_domain)
-    target_examples = read_lines_clip_disentangle(opt['data_path'], target_domain)
+    source_examples = read_lines_domain_disentangle(opt['data_path'], source_domain)
+    target_examples = read_lines_domain_disentangle(opt['data_path'], target_domain)
 
     # Compute ratios of examples for each category
     source_category_ratios = dict()
