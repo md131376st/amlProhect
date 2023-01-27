@@ -31,7 +31,7 @@ class CLIPDisentangleExperiment: # See point 4. of the project
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
 
-        for param in self.clip_model.parameters():
+        for param in self.model.clip_model.parameters():
             param.requires_grad = False
 
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss()
