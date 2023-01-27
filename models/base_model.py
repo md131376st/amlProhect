@@ -130,7 +130,7 @@ class DomainDisentangleModel( nn.Module ):
 
 class CLIPDisentangleModel( nn.Module ):
     def __init__(self):
-        super( DomainDisentangleModel, self ).__init__()
+        super( CLIPDisentangleModel, self ).__init__()
         self.clip_model, _ = clip.load('ViT-B/32', device='cpu')
         #self.clip_model = self.clip_model.to(device)
         #self.clip_model.eval()
