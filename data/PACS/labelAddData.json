@@ -1,0 +1,1990 @@
+[
+  {
+    "image_name": "art_painting/dog/pic_352.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_170.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, light reflections",
+      "no, grayscale",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_279.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_184.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_424.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_239.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_110.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_088.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, neutral",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_003.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_173.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, contrasting, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_391.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, colorful, faded, blended",
+      "Yes, colorful",
+      "colorful",
+      "no, 6",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_048.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_426.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, dark, deep, vright,contrasting, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_292.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_080.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_363.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_196.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, rich bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_033.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_121.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_064.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_030.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright, graduated",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_010.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_155.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, btight, grey",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_244.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_198.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_118.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_096.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, gray, dark,deep",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_082.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, warm, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_522.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, blended, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_089.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, volorful, neutral, worm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_122.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, cold",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_215.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, faded, muted",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_214.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, sharp, cold, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_175.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, blended, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_218.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colurful, ashy,worm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_301.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, contrasting, cold ,dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_276.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colurful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_095.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, worm ,muted, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_293.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cool, neutral, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_223.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, warm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful, faded, neutral ",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_203.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, dark , contrasted, worm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_110.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_158.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, worm, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 4",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_248.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful. neutral, cold, ashy",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_254.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_045.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, vivid colors  ",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_131.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,blended,muted",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_065.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_100.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cold, neutral",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_114.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_078.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, light reflections, belended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_145.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, worm, natural",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_108.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful , vivid colors, worm, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_201.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_278.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, cold, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_054.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful ,cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_281.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, worm, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_213.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, neutral, bright, contrasting",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_468.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_025.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_162.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, cold, vivid colors, dark",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_253.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, worm, faded",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_247.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, cold",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_020.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_071.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_145.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, contrasting, ",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_358.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, clear",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "image",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_352.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_170.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, light reflections",
+      "no, grayscale",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_279.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_184.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_424.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_239.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_110.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_088.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, neutral",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_003.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_173.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, contrasting, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_391.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, colorful, faded, blended",
+      "Yes, colorful",
+      "colorful",
+      "no, 6",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_048.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_426.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, dark, deep, vright,contrasting, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_292.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_080.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_363.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_196.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, rich bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_033.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_121.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_064.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_030.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright, graduated",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_010.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_155.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, btight, grey",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_244.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_198.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_118.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_096.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, gray, dark,deep",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_082.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, warm, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_522.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, blended, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_089.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, volorful, neutral, worm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_122.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, cold",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_215.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, faded, muted",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_214.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, sharp, cold, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_175.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, blended, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_218.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colurful, ashy,worm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_301.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, contrasting, cold ,dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_276.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colurful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_095.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, worm ,muted, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_293.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cool, neutral, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_223.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, warm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful, faded, neutral ",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_203.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, dark , contrasted, worm",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_110.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_158.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, worm, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 4",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_248.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful. neutral, cold, ashy",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_254.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_045.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, vivid colors  ",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_131.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,blended,muted",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_065.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_100.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cold, neutral",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_114.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_078.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, light reflections, belended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_145.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, worm, natural",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_108.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful , vivid colors, worm, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_201.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_278.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, cold, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_054.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful ,cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_281.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, worm, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_213.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, neutral, bright, contrasting",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_468.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_025.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_162.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, cold, vivid colors, dark",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_253.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, worm, faded",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_247.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, cold",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_020.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_071.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no",
+      "painting, brush strokes",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_145.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, contrasting, ",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_358.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, clear",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "image",
+      "yes"
+    ]
+  }
+]
