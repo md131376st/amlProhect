@@ -315,7 +315,7 @@ def build_splits_clip_disentangle(opt):
         domain_idx = domain_category[0]
         category_idx = domain_category[1]
         for example in examples_list:
-            label = get_label_info(target_domain, example)
+            label = get_label_info(source_label, example)
             test_examples.append(
                 [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, domain_label]
 
