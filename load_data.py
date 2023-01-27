@@ -292,7 +292,7 @@ def build_splits_clip_disentangle(opt):
     # Build splits - we train only on the source domain (Art Painting)
     val_split_length = source_total_examples * 0.2  # 20% of the training split used for validation
     # read label file
-    source_label, domain_label = read_label_file(opt['data_path'], source_domain, target_domain)
+    source_label, target_label = read_label_file(opt['data_path'], source_domain, target_domain)
     train_examples = []
     val_examples = []
     test_examples = []
@@ -306,18 +306,18 @@ def build_splits_clip_disentangle(opt):
             if i > split_idx:
 
                 train_examples.append(
-                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, domain_label]
+                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
             else:
                 val_examples.append(
-                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, domain_label]
+                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
 
     for domain_category, examples_list in target_examples.items():
         domain_idx = domain_category[0]
         category_idx = domain_category[1]
         for example in examples_list:
-            label = get_label_info(domain_label, example)
+            label = get_label_info(target_label, example)
             test_examples.append(
-                [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, domain_label]
+                [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
 
     # Transforms
     normalize = T.Normalize([0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # ResNet18 - ImageNet Normalization
