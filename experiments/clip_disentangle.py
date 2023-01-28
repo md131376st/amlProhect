@@ -1,6 +1,6 @@
 import torch
 from models.base_model import CLIPDisentangleModel
-import numpy as np
+from sklearn import preprocessing
 
 
 def myEntropyLoss(outputs):
@@ -80,8 +80,9 @@ class CLIPDisentangleExperiment: # See point 4. of the project
             y = y.to( self.device )
             #print(z)
             z = z.to( self.device )
-            #print(t)
-            t = torch.tensor(list(t))
+            print(t)
+            le = preprocessing.LabelEncoder()
+            t = le.fit_transform(t)
             t = t.to(self.device)
 
             for param in self.model.domain_encoder.parameters():
