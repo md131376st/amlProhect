@@ -184,7 +184,7 @@ class CLIPDisentangleModel( nn.Module ):
             nn.ReLU()
         ) 
 
-    def forward(self, x, y=None, w1=None, w2=None, w3=None, w4=None, w5=None):
+    def forward(self, x, y=None, w1=None, w2=None, w3=None, w4=None, w5=None,t=None):
         x = self.feature_extractor( x )
         if y is None:
             if w5 is None:
@@ -209,6 +209,5 @@ class CLIPDisentangleModel( nn.Module ):
                 return y, x
         else:
             x = self.domain_encoder( x )
-            tokenized_text = clip.tokenize(y)
-            text_features = self.clip_model.encode_text(tokenized_text)
+            text_features = self.clip_model.encode_text(t)
             return x, text_features
