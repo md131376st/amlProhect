@@ -78,6 +78,7 @@ class CLIPDisentangleExperiment: # See point 4. of the project
             x = x.to( self.device )
             y = y.to( self.device )
             z = z.to( self.device )
+            print(t)
             t = torch.tensor(t)
             t = t.to(self.device)
 
