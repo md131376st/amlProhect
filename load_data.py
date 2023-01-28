@@ -1,3 +1,4 @@
+import clip
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as T
@@ -315,21 +316,23 @@ def build_splits_clip_disentangle(opt):
         split_idx = round(source_category_ratios[category_idx] * val_split_length)
         for i, example in enumerate(examples_list):
             label = get_label_info(source_label, example)
+            label_token= clip.tokenize(label)
             if i > split_idx:
 
                 train_examples.append(
-                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
+                    [example, category_idx, domain_idx, label_token])  # each pair is [path_to_img, class_label, target_label]
             else:
                 val_examples.append(
-                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
+                    [example, category_idx, domain_idx, label_token])  # each pair is [path_to_img, class_label, target_label]
 
     for domain_category, examples_list in target_examples.items():
         domain_idx = domain_category[0]
         category_idx = domain_category[1]
         for example in examples_list:
             label = get_label_info(target_label, example)
+            label_token = clip.tokenize(label)
             test_examples.append(
-                [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
+                [example, category_idx, domain_idx, label_token])  # each pair is [path_to_img, class_label, target_label]
 
     # Transforms
     normalize = T.Normalize([0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # ResNet18 - ImageNet Normalization
