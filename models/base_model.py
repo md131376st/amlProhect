@@ -209,5 +209,5 @@ class CLIPDisentangleModel( nn.Module ):
                 return y, x
         else:
             x = self.domain_encoder( x )
-            text_features = self.clip_model.encode_text(t)
+            text_features = self.clip_model.encode_text(y)
             return x, text_features

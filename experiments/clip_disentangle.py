@@ -1,6 +1,5 @@
 import torch
 from models.base_model import CLIPDisentangleModel
-from sklearn import preprocessing
 import clip
 
 def myEntropyLoss(outputs):
@@ -71,13 +70,13 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
 
         return iteration, best_accuracy, total_train_loss
 
-    def create_label_tensor(self, t):
-        newt = list()
-        le = preprocessing.LabelEncoder()
-        for i in t:
-            newt.append(le.fit_transform(i))
-        newt = torch.tensor(newt)
-        return newt
+    # def create_label_tensor(self, t):
+    #     newt = list()
+    #     le = preprocessing.LabelEncoder()
+    #     for i in t:
+    #         newt.append(le.fit_transform(i))
+    #     newt = torch.tensor(newt)
+    #     return newt
 
     def train_iteration(self, data, train=True, weight=None):
         self.weights = weight
@@ -86,11 +85,10 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
         if train:
             x, y, z, t = data
             #t = self.create_label_tensor(t)
-            t = clip.tokenize(t)
             x = x.to(self.device)
             y = y.to(self.device)
             z = z.to(self.device)
-            t = t.to(self.device)
+            tokenized = clip.tokenize(t).to(self.device)
 
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
@@ -176,7 +174,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
                 param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
-            domain_encoder_output, text_features = self.model(x, y=t)
+            domain_encoder_output, text_features = self.model(x, y=tokenized)
             loss = self.clip_text_encoder_criterion(domain_encoder_output, text_features) * self.weights[5]
             loss.backward()
             for param in self.model.category_encoder.parameters():
@@ -189,9 +187,10 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
                 param.requires_grad = True
 
         else:
-            x, y, z = data
+            x, y, z, t = data
             x = x.to(self.device)
             z = z.to(self.device)
+            tokenized = clip.tokenize(t).to(self.device)
 
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
@@ -245,7 +244,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
                 param.requires_grad = False
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
-            domain_encoder_output, text_features = self.model(x, y=t)
+            domain_encoder_output, text_features = self.model(x, y=tokenized)
             loss = self.clip_text_encoder_criterion(domain_encoder_output, text_features) * self.weights[5]
             loss.backward()
             for param in self.model.category_encoder.parameters():
