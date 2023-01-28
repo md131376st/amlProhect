@@ -88,7 +88,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             x = x.to(self.device)
             y = y.to(self.device)
             z = z.to(self.device)
-            tokenized = clip.tokenize(t).to(self.device)
+            tokenized = clip.tokenize(list(t)).to(self.device)
 
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
@@ -190,7 +190,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             x, y, z, t = data
             x = x.to(self.device)
             z = z.to(self.device)
-            tokenized = clip.tokenize(t).to(self.device)
+            tokenized = clip.tokenize(list(t)).to(self.device)
 
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
