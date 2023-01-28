@@ -279,7 +279,8 @@ def get_label_info(info_list, target_address):
     info = list(
         item for item in info_list if item["image_name"] == target_address)
     for item in info:
-        return item["descriptions"]
+        #hi = ' '.join(item["descriptions"])
+        return  ' '.join(item["descriptions"])
     return value
 
 
