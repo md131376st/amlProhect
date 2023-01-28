@@ -88,8 +88,8 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             x = x.to(self.device)
             y = y.to(self.device)
             z = z.to(self.device)
+            print(t)
             tokenized = clip.tokenize(t).to(self.device)
-            print(tokenized)
 
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
