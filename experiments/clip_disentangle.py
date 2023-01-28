@@ -23,6 +23,7 @@ class CLIPDisentangleExperiment: # See point 4. of the project
 
         # Setup model
         self.model = CLIPDisentangleModel()
+        self.model.clip_model = self.clip_model.to(self.device)
         self.model.train()
 
         for param in self.model.parameters():
@@ -31,6 +32,7 @@ class CLIPDisentangleExperiment: # See point 4. of the project
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
 
+        self.model.clip_model.eval()
         for param in self.model.clip_model.parameters():
             param.requires_grad = False
 

@@ -132,7 +132,6 @@ class CLIPDisentangleModel( nn.Module ):
     def __init__(self):
         super( CLIPDisentangleModel, self ).__init__()
         self.clip_model, _ = clip.load('ViT-B/32', device='cpu')
-        #self.clip_model = self.clip_model.to(device)
         #self.clip_model.eval()
 
         self.feature_extractor = FeatureExtractor()
