@@ -2322,5 +2322,89 @@
       "cartoon",
       "yes"
     ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_111.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue, pink, yellow, red",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_285.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, gray, red, yellow, blue",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_004.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, bright, black, white",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_093.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, black ",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_197.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, gray, pink",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_111.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
   }
 ]
