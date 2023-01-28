@@ -81,7 +81,7 @@ class CLIPDisentangleExperiment: # See point 4. of the project
             #print(z)
             z = z.to( self.device )
             #print(t)
-            t = torch.tensor(np.asarray(t))
+            t = torch.tensor(list(t))
             t = t.to(self.device)
 
             for param in self.model.domain_encoder.parameters():
