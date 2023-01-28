@@ -48,6 +48,7 @@ class PACSDatasetDomainDisentangle(Dataset):
         x = self.transform(Image.open(img_path).convert('RGB'))
         return x, y, z
 
+
 class PACSDatasetClipDisentangle(Dataset):
     def __init__(self, examples, transform):
         self.examples = examples
@@ -272,12 +273,12 @@ def read_label_file(path, source, target):
 
 
 def get_label_info(info_list, target_address):
-    value = str()
-
+    value = list()
+    target_address = target_address[len("data/PACS/kfold/"):]
     info = list(
-        item for item in info_list if item["image_name"] == target_address.removeprefix("data/PACS/kfold/"))
+        item for item in info_list if item["image_name"] == target_address)
     for item in info:
-        value = value.join(item["descriptions"])
+        value = value.append(item["descriptions"])
     return value
 
 
