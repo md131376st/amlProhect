@@ -273,12 +273,12 @@ def read_label_file(path, source, target):
 
 
 def get_label_info(info_list, target_address):
-    value = list()
+    value = [" "] * 9
     target_address = target_address[len("data/PACS/kfold/"):]
     info = list(
         item for item in info_list if item["image_name"] == target_address)
     for item in info:
-        value = value.append(item["descriptions"])
+        return item["descriptions"]
     return value
 
 
