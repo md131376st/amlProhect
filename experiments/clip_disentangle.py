@@ -88,6 +88,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             x = x.to(self.device)
             y = y.to(self.device)
             z = z.to(self.device)
+            print(x)
             print(t)
             print(len(t))
             print(type(t))
