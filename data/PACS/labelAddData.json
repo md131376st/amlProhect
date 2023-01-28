@@ -1986,5 +1986,341 @@
       "image",
       "yes"
     ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_042.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful,yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_436.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_277.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_122.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, red, black",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_295.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, red ",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_478.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, gray scale",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_395.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, cold ",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_227.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, red, yellow",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_160.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_134.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, orange, blue, red, green",
+      "Yes, colorful",
+      "white",
+      "no, 4",
+      "yes, sparse text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_038.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, blue, bright, cold",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_056.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_059.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_207.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, red, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_146.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_113.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_032.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful,brown, blue",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_113.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful,yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_219.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, vivid colors",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_441.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_204.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "colorful",
+      "no, 7",
+      "no",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_100.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray, pink",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_334.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, red, black",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no",
+      "cartoon",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_392.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, dark",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "yes, sparse text",
+      "cartoon",
+      "yes"
+    ]
   }
 ]
