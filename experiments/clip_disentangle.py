@@ -2,6 +2,7 @@ import torch
 from models.base_model import CLIPDisentangleModel
 import clip
 
+
 def myEntropyLoss(outputs):
     LS = torch.nn.LogSoftmax()
     l = torch.sum(LS(outputs))
@@ -84,11 +85,11 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
 
         if train:
             x, y, z, t = data
-            #t = self.create_label_tensor(t)
+            # t = self.create_label_tensor(t)
             x = x.to(self.device)
             y = y.to(self.device)
             z = z.to(self.device)
-            tokenized = clip.tokenize(list(t)).to(self.device)
+            tokenized = t.to(self.device)
 
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
