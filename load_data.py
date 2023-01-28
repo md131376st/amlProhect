@@ -57,9 +57,9 @@ class PACSDatasetClipDisentangle(Dataset):
         return len(self.examples)
 
     def __getitem__(self, index):
-        img_path, y, z = self.examples[index]
+        img_path, y, z, t = self.examples[index]
         x = self.transform(Image.open(img_path).convert('RGB'))
-        return x, y, z
+        return x, y, z, t
 
 
 def read_lines(data_path, domain_name):
