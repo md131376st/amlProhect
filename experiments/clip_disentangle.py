@@ -1,5 +1,6 @@
 import torch
 from models.base_model import CLIPDisentangleModel
+import numpy as np
 
 
 def myEntropyLoss(outputs):
@@ -77,10 +78,10 @@ class CLIPDisentangleExperiment: # See point 4. of the project
             x, y, z, t = data
             x = x.to( self.device )
             y = y.to( self.device )
-            print(z)
+            #print(z)
             z = z.to( self.device )
-            print(t)
-            #t = torch.tensor(t)
+            #print(t)
+            t = torch.tensor(np.asarray(t))
             t = t.to(self.device)
 
             for param in self.model.domain_encoder.parameters():
