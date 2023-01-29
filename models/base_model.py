@@ -1,6 +1,7 @@
 import torch.nn as nn
 from torchvision.models import resnet18
 import clip
+import torch
 
 
 class FeatureExtractor( nn.Module ):
@@ -131,8 +132,6 @@ class DomainDisentangleModel( nn.Module ):
 class CLIPDisentangleModel( nn.Module ):
     def __init__(self):
         super( CLIPDisentangleModel, self ).__init__()
-        self.clip_model, _ = clip.load('ViT-B/32', device='cpu')
-        #self.clip_model.eval()
 
         self.feature_extractor = FeatureExtractor()
 
@@ -182,7 +181,12 @@ class CLIPDisentangleModel( nn.Module ):
             nn.Linear( 512, 512 ),
             nn.BatchNorm1d( 512 ),
             nn.ReLU()
+            
         ) 
+
+        self.clip_model, _ = clip.load('ViT-B/32', device='cpu')
+        #The fully connected layer after the clip text encoder
+        self.clip_fcl = nn.Linear( 512, 512 )
 
     def forward(self, x, y=None, w1=None, w2=None, w3=None, w4=None, w5=None,t=None):
         x = self.feature_extractor( x )
@@ -210,4 +214,5 @@ class CLIPDisentangleModel( nn.Module ):
         else:
             x = self.domain_encoder( x )
             text_features = self.clip_model.encode_text(y)
-            return x, text_features
+            t = self.clip_fcl(text_features)
+            return x, t
