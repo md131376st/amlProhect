@@ -1,0 +1,6470 @@
+[
+  {
+    "image_name": "art_painting/dog/pic_352.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_170.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, light reflections",
+      "no, grayscale",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_279.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_184.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_424.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_239.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_110.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_088.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, neutral",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_003.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_173.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, contrasting, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_391.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, colorful, faded, blended",
+      "Yes, colorful",
+      "colorful",
+      "no, 6",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_048.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_426.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, dark, deep, vright,contrasting, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_292.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_080.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_363.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_196.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, rich bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_033.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_121.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_064.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_030.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright, graduated",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_010.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_155.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, btight, grey",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_244.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_198.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_118.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_096.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, gray, dark,deep",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_082.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, warm, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_522.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, blended, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_089.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, volorful, neutral, worm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_122.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, cold",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_215.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, faded, muted",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_214.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, sharp, cold, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_175.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, blended, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_218.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colurful, ashy,worm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_301.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, contrasting, cold ,dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_276.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colurful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_095.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, worm ,muted, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_293.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cool, neutral, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_223.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, warm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful, faded, neutral ",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_203.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, dark , contrasted, worm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_110.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_158.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, worm, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 4",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_248.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful. neutral, cold, ashy",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_254.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_045.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, vivid colors  ",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_131.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,blended,muted",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_065.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_100.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cold, neutral",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_114.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_078.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, light reflections, belended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_145.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, worm, natural",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_108.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful , vivid colors, worm, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_201.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_278.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, cold, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_054.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful ,cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_281.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, worm, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_213.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, neutral, bright, contrasting",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_468.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_025.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_162.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, cold, vivid colors, dark",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_253.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, worm, faded",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_247.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, cold",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_020.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_071.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_145.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, contrasting, ",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_358.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, clear",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "image",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_352.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_170.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, light reflections",
+      "no, grayscale",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_279.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_184.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_424.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_239.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_110.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_088.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, neutral",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_003.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_173.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, contrasting, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_391.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, colorful, faded, blended",
+      "Yes, colorful",
+      "colorful",
+      "no, 6",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_048.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_426.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, dark, deep, vright,contrasting, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_292.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_080.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_363.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_196.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, rich bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_033.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_121.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, warm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_064.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_030.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright, graduated",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_010.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_155.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, btight, grey",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_244.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_198.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_118.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, colorful, contrasting, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_096.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, gray, dark,deep",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_082.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, warm, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_522.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, blended, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_089.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, volorful, neutral, worm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_122.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, cold",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_215.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, faded, muted",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_214.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, sharp, cold, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_175.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, blended, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_218.jpg",
+    "descriptions": [
+      "low-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colurful, ashy,worm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_301.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, contrasting, cold ,dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_276.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colurful, neutral, warm",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_095.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colurful, worm ,muted, bright",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_293.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cool, neutral, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_223.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, warm, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_062.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful, faded, neutral ",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_203.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, dark , contrasted, worm",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_110.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_158.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, vivid colors, worm, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 4",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_248.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful. neutral, cold, ashy",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_254.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_045.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, vivid colors  ",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_131.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral,blended,muted",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_065.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_100.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, cold, neutral",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_114.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, vivid colors, colorful, bright",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_078.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, light reflections, belended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_145.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, worm, natural",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_108.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful , vivid colors, worm, contrasted",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/elephant/pic_201.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_278.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, cold, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_054.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, vivid colors, colorful ,cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_281.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, worm, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_213.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, neutral, bright, contrasting",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/house/pic_001.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, vivid colors, colorful, worm, contrasting",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_468.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, blended",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/guitar/pic_025.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colurful, cold, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/horse/pic_162.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, cold, vivid colors, dark",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_253.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, worm, faded",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_247.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, cold",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_020.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, bright, faded",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/person/pic_071.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, dark",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "painting, brush strokes",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/giraffe/pic_145.jpg",
+    "descriptions": [
+      "mid-level",
+      "neat brush strokes",
+      "low saturation, colorful, vivid colors, contrasting, ",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "painting, brush strokes",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "art_painting/dog/pic_358.jpg",
+    "descriptions": [
+      "high-level",
+      "neat brush strokes",
+      "low saturation, colorful, neutral, clear",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "image",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_042.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful,yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_436.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_277.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_122.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, red, black",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_295.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, red ",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_478.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, gray scale",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_395.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, cold ",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_227.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, red, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_160.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_134.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, orange, blue, red, green",
+      "Yes, colorful",
+      "white",
+      "no, 4",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_038.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, blue, bright, cold",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_056.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_059.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_207.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, red, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_146.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_113.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_032.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful,brown, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_113.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful,yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_219.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, vivid colors",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_441.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_204.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "colorful",
+      "no, 7",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_100.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray, pink",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_334.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, red, black",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_392.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, dark",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_111.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue, pink, yellow, red",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_285.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, gray, red, yellow, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_004.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, bright, black, white",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_093.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, black ",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_197.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, gray, pink",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_111.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_111.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown,black",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_446.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "colorful",
+      "no, 5",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_347.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue, orange, black",
+      "Yes, colorful",
+      "white",
+      "no, 5",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_005.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, calorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "caartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_066.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "colorful",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_084.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_001.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue, green",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_400.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, calorful, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "no, 9",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_121.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, black",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_296.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray, pink",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_346.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, orange",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_295.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, green, vivid colors, worm",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_298.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, pink, yellow, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_124.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, brown, black, white",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_289.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_317.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_359.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_028.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_284.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray, pink",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_128.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_175.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_308.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colrful, blue,brown, yellow",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_120.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_269.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoo",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_074.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_419.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, green, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_274.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, blue, green",
+      "Yes, colorful",
+      "white",
+      "no, 5",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_182.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_331.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "high saturation, colorful, blue, green, yellow",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_288.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown,blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_341.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, brown, orange",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_212.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, blue, colorful",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_319.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, green, orange",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_019.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, orange, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_449.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_010.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_127.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, red",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_056.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_264.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_208.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, orange, blue , brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_272.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray, yellow, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_266.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_293.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, gray",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_399.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_351.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, green, brown, blue",
+      "Yes, colorful",
+      "monochrome",
+      "no, 2",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_362.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_404.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, blue, vivid colors",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_093.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, green, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_081.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_265.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, vivid colors, blue, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_060.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, blue, brown, green",
+      "Yes, colorful",
+      "white",
+      "no, 2",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/horse/pic_026.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_255.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colroful, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_277.jpg",
+    "descriptions": [
+      "low-level",
+      "precise",
+      "low saturation, colorful, pink, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_089.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_299.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_333.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, red, yellow, green, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/giraffe/pic_054.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_199.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, red, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_129.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_206.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, pink, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/guitar/pic_099.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, pink, black",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_334.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, pink",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_423.jpg",
+    "descriptions": [
+      "high-level",
+      "precise",
+      "low saturation, colorful, vivid colors, green, orange, yellow",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_267.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, yellow, red, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_084.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, red, gray",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/house/pic_139.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, brown, green, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "yes, dense text",
+      "cartoon",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/person/pic_204.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, orange, yellow, blue, brown",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/dog/pic_168.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, vivid colors, brown, orange, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "cartoon/elephant/pic_261.jpg",
+    "descriptions": [
+      "mid-level",
+      "precise",
+      "low saturation, colorful, blue",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "yes, sparse text",
+      "cartoon",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "photo/guitar/063_0079.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, yellow ",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_222.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/giraffe/084_0047.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, yellow, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/n02503517_8904.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, neutral",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0130.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, neutral, pink",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0298.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, neutral",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0085.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_010.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_086.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/horse/n02374451_14233.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/n02503517_792.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, blue, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_077.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green, blue",
+      "Yes, colorful",
+      "colorful",
+      "no, 2",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/056_0011.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0164.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, gray, brown",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/064_0110.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, gray, blue , green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/giraffe/084_0026.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, yellow, green",
+      "Yes, colorful",
+      "colorful",
+      "no, 3",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/horse/105_0002.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_242.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, blue, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0388.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/guitar/n03467517_22785.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/guitar/n02676566_9243.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful , brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_234.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, gray, green, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/guitar/063_0071.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/064_0085.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, gray, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/056_0006.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/n02503517_564.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0208.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, bright",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0409.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/horse/105_0260.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_041.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, blue, brown, green",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_088.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, grren, gray, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/horse/105_0116.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0175.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_209.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/horse/105_0042.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_257.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/n02109525_13700.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0432.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/056_0083.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_194.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, blue, green, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_134.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/horse/n02374451_777.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/giraffe/084_0062.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, orange, yellow, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_174.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, blue, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/064_0011.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, blue, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/n02103406_5563.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, pink, gray,",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/n02103406_8004.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, browm",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/giraffe/084_0044.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/elephant/n02503517_10439.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, gray, green",
+      "Yes, colorful",
+      "colorful",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "photo/dog/056_0001.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "monochrome",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "sketch/house/8813.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_5652-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_2706-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_388-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_392-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_2380-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02109525_10297-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_10669-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/8526.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_245-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/house/8836.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_17384-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_10439-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_4687-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_11666-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_5001-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_8744-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/7379.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_14040-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_6864-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_2500-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5965.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_12328-9.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_3803-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/7678.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_10081-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_11627-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_9892-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_13868-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_12987-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/7638.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_388-8.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_9421-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_4469-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_13132-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/8499.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_1340-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_1234-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_5418-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_597-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/7653.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_8806-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_3108-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12221.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_9719-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5986.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/7411.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5995.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_503-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_10130-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02109525_704-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_14781-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_12987-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_18953-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_6914-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_13718-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_9225-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_3401-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_7592-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_11666-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02109525_13700-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_12418-9.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_12987-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_13136-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12222.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_2925-9.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_10275-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5989.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_8997-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_7708-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_15401-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5961.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_9557-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02109525_16346-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_14962-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_4916-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12126.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_1829-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_10795-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02109525_8211-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_6880-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_7385-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_11873-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_18402-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12155.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_2993-8.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_27393-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/5313.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_25917-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_10193-8.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_3743-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/8524.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_10295-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_14399-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_7368-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12210.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_4818-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_3743-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_4189-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_1415-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5937.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_1170-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_1874-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12154.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03467517_12925-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_1599-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_6611-8.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_4605-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_10259-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_13430-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_14872-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/person/12099.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_4849-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_24019-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/8481.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_1453-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_12485-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_184-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_6737-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_490-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_10193-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_2825-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_343-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02106662_928-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_184-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/7662.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/house/8815.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_7383-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02109525_704-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/7669.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_2993-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_1383-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_14600-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_10440-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_6937-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_8718-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_16356-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_7173-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_12328-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_11458-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/5998.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_7201-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_4058-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_12174-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/7437.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_10099-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_9858-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_5004-8.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_2733-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_9154-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03272010_6727-3.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n02676566_6402-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_2733-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "sketch/guitar/n03467517_24525-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_12250-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_14885-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_916-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_11273-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_9598-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_3879-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_12847-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_11130-6.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/house/8863.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_15540-4.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_4247-10.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "yes, realistic"
+    ]
+  },
+  {
+    "image_name": "sketch/giraffe/n02439033_15479-2.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_14738-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/horse/n02374451_2233-1.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/dog/n02103406_371-5.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  },
+  {
+    "image_name": "sketch/elephant/n02503517_9043-7.png",
+    "descriptions": [
+      "low-level",
+      "definite",
+      "low saturation, black and white",
+      "no, grayscale",
+      "white",
+      "yes, single instance ",
+      "no, text",
+      "without texture",
+      "no, unrealistic"
+    ]
+  }
+]
