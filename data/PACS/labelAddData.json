@@ -3806,5 +3806,271 @@
       "",
       "yes"
     ]
-  }
+  },
+  {
+    "image_name": "photo/house/pic_088.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, grren, gray, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "photo/horse/105_0116.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, green",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "photo/person/253_0175.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_209.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "photo/horse/105_0042.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+    ]
+  },
+  {
+    "image_name": "photo/house/pic_257.jpg",
+    "descriptions": [
+      "high-level",
+      "definite",
+      "low saturation, colorful, cold, blue",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+    ]
+  },
+  {
+   "image_name":"photo/dog/n02109525_13700.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/person/253_0432.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/dog/056_0083.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/house/pic_194.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, blue, green, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/house/pic_134.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, blue, green",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/horse/n02374451_777.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, green",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/giraffe/084_0062.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, orange, yellow, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/house/pic_174.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, blue, brown",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/elephant/064_0011.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, blue, gray",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/dog/n02103406_5563.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, pink, gray,",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/dog/n02103406_8004.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, green, browm",
+      "Yes, colorful",
+      "monochrome",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/giraffe/084_0044.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, brown, yellow",
+      "Yes, colorful",
+      "white",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+},
+{
+   "image_name":"photo/elephant/n02503517_10439.jpg",
+   "descriptions":[
+      "high-level",
+      "definite",
+      "low saturation, colorful, gray, green",
+      "Yes, colorful",
+      "colorful",
+      "yes",
+      "no",
+      "",
+      "yes"
+   ]
+}
 ]
