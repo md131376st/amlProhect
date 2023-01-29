@@ -214,6 +214,6 @@ class CLIPDisentangleModel( nn.Module ):
         else:
             x = self.domain_encoder( x )
             text_features = self.clip_model.encode_text(y)
-            print(torch.size(text_features))
+            print(torch.Tensor.size(text_features))
             t = self.clip_fcl(text_features)
             return x, t
