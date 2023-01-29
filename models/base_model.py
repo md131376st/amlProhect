@@ -1,6 +1,7 @@
 import torch.nn as nn
 from torchvision.models import resnet18
 import clip
+import torch
 
 
 class FeatureExtractor( nn.Module ):
@@ -213,5 +214,6 @@ class CLIPDisentangleModel( nn.Module ):
         else:
             x = self.domain_encoder( x )
             text_features = self.clip_model.encode_text(y)
+            print(torch.size(text_features))
             t = self.clip_fcl(text_features)
             return x, t
