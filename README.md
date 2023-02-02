@@ -57,7 +57,7 @@ At this point you should be able to run and edit the base code provided.
 |                 | Art Painting &#8594; Cartoon | Art Painting &#8594; Sketch | Art Painting &#8594; Photo | Average |
 |:---------------:|:----------------------------:|:---------------------------:|:--------------------------:|:-------:|
 |    Baseline     |            59.91             |            58.72            |           94.07            |  70.61  |
-| BaselineOurRuns |            63.48             |            60.32            |           90.24            |  71.35  |
+| BaselineOurRuns |            64.93             |            58.69            |           93.77            |  72.46  |
 
 
 ## CLIP Text Encoder
