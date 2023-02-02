@@ -184,7 +184,7 @@ class CLIPDisentangleModel( nn.Module ):
             
         ) 
 
-        self.clip_model, _ = clip.load('ViT-B/32', device='cpu')
+        self.clip_model, _ = clip.load('ViT-B/32',device='cpu')
         #The fully connected layer after the clip text encoder
         self.clip_fcl = nn.Linear( 512, 512 )
 
