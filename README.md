@@ -56,7 +56,7 @@ At this point you should be able to run and edit the base code provided.
 ## Baseline Results (see point 1. of the project)
 |                 | Art Painting &#8594; Cartoon | Art Painting &#8594; Sketch | Art Painting &#8594; Photo | Average |
 |:---------------:|:----------------------------:|:---------------------------:|:--------------------------:|:-------:|
-|    Baseline     |            63.91             |            61.54            |           91.86            |  72.44  |
+|    Baseline     |            59.91             |            58.72            |           94.07            |  70.61  |
 | BaselineOurRuns |            63.48             |            60.32            |           90.24            |  71.35  |
 
 
