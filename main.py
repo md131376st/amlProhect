@@ -191,6 +191,9 @@ def main(opt):
                         best_accuracy = val_accuracy
                         experiment.save_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth', iteration,
                                                     best_accuracy, total_train_loss )
+
+
+
                     experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
                                                 best_accuracy,
                                                 total_train_loss )
@@ -215,9 +218,10 @@ def main(opt):
     test_accuracy, _ = experiment.validate(test_loader)
     logging.info(f'[TEST] Accuracy last: {(100 * test_accuracy):.2f}')
     for i in range(4):
-        experiment.load_checkpoint(f'{opt["output_path"]}/best{i+1}_checkpoint.pth')
-        test_accuracy, _ = experiment.validate(test_loader)
-        logging.info(f'[TEST] Accuracy best {i}: {(100 * test_accuracy):.2f}')
+        if os.path.isfile(f'{opt["output_path"]}/best{i + 1}_checkpoint.pth'):
+            experiment.load_checkpoint(f'{opt["output_path"]}/best{i + 1}_checkpoint.pth')
+            test_accuracy, _ = experiment.validate(test_loader)
+            logging.info(f'[TEST] Accuracy best {i}: {(100 * test_accuracy):.2f}')
     for i in range(opt['max_iterations']/1000):
         experiment.load_checkpoint(f'{opt["output_path"]}/{i}_checkpoint.pth')
         test_accuracy, _ = experiment.validate(test_loader)
