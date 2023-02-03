@@ -202,6 +202,8 @@ def main(opt):
 
                 iteration += 2
                 if iteration > opt['max_iterations']:
+                    logging.info(best_accuracy)
+                    logging.info(top5Accuracy)
                     break
         
 
