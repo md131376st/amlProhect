@@ -222,7 +222,7 @@ def main(opt):
             experiment.load_checkpoint(f'{opt["output_path"]}/best{i + 1}_checkpoint.pth')
             test_accuracy, _ = experiment.validate(test_loader)
             logging.info(f'[TEST] Accuracy best {i}: {(100 * test_accuracy):.2f}')
-    for i in range(opt['max_iterations']/1000):
+    for i in range(int(opt['max_iterations']/1000)):
         experiment.load_checkpoint(f'{opt["output_path"]}/{i}_checkpoint.pth')
         test_accuracy, _ = experiment.validate(test_loader)
         logging.info(f'[TEST] Accuracy count {i}: {(100 * test_accuracy):.2f}')
