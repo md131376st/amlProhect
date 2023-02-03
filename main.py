@@ -191,9 +191,6 @@ def main(opt):
                         best_accuracy = val_accuracy
                         experiment.save_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth', iteration,
                                                     best_accuracy, total_train_loss )
-
-
-
                     experiment.save_checkpoint( f'{opt["output_path"]}/last_checkpoint.pth', iteration,
                                                 best_accuracy,
                                                 total_train_loss )
