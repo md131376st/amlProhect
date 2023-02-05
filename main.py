@@ -92,6 +92,7 @@ def main(opt):
             test_loader_iterator = iter(test_loader)
             while iteration < opt['max_iterations']:
 
+                #getting the next batch of train data
                 try:
                     data = next(train_loader_iterator)
                 except StopIteration:
@@ -100,6 +101,7 @@ def main(opt):
 
                 total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
+                #getting the next batch of test data
                 try:
                     data = next(test_loader_iterator)
                 except StopIteration:
@@ -117,7 +119,7 @@ def main(opt):
                     val_accuracy, val_loss = experiment.validate( validation_loader )
                     logging.info(
                         f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
-                    if val_accuracy >= best_accuracy:
+                    if val_accuracy > best_accuracy:
                         best_accuracy = val_accuracy
                         experiment.save_checkpoint( f'{opt["output_path"]}/best_checkpoint.pth', iteration,
                                                     best_accuracy, total_train_loss )
@@ -125,6 +127,7 @@ def main(opt):
                                                 best_accuracy,
                                                 total_train_loss )
 
+                #We iterate over two batches at each iteration
                 iteration += 2
                 if iteration > opt['max_iterations']:
                     break
@@ -152,6 +155,7 @@ def main(opt):
             test_loader_iterator = iter(test_loader)
             while iteration < opt['max_iterations']:
                 
+                #getting the next batch of train data
                 try:
                     data = next(train_loader_iterator)
                 except StopIteration:
@@ -160,6 +164,7 @@ def main(opt):
 
                 total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
+                #getting the next batch of test data
                 try:
                     data = next(test_loader_iterator)
                 except StopIteration:
@@ -177,7 +182,7 @@ def main(opt):
                     val_accuracy, val_loss = experiment.validate( validation_loader )
                     logging.info(
                         f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
-                    if val_accuracy >= best_accuracy:
+                    if val_accuracy > best_accuracy:
                         top5Accuracy.pop(0)
                         top5Accuracy.append(best_accuracy)
                         if os.path.isfile(f'{opt["output_path"]}/best1_checkpoint.pth'):
@@ -201,6 +206,7 @@ def main(opt):
                                                    total_train_loss)
                         counter = counter +1
 
+                #We iterate over two batches at each iteration
                 iteration += 2
                 if iteration > opt['max_iterations']:
                     logging.info(best_accuracy)
