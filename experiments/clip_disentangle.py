@@ -25,7 +25,6 @@ class CLIPDisentangleExperiment:
 
         # Setup model
         self.model = CLIPDisentangleModel()
-        #self.model.clip_model = self.model.clip_model.to(self.device)
         self.model.train()
         for param in self.model.parameters():
             param.requires_grad = True
