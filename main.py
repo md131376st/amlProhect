@@ -183,11 +183,11 @@ def main(opt):
                     logging.info(
                         f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
                     """
-                    1)In this section we comper are best value with the accuracy of the validation set.
-                    2)in the case of better value we remove the first best value in the queue of top5accuracy.
-                    3)we save the the last best value in the queue . 
+                    1)In this section we compare best value with the accuracy on the validation set.
+                    2)In the case of better value, we remove the first best value from the queue of top5accuracy.
+                    3)We save the the last best value in the queue. 
                     4)rename the files remained to point to the correct accuracy.
-                    5) we change the best_accuracy value to the current validation set
+                    5)We change the best_accuracy value to the current accuracy on the validation set.
                     """
                     if val_accuracy >= best_accuracy:
                         top5Accuracy.pop(0)
