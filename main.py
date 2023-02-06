@@ -92,6 +92,7 @@ def main(opt):
             test_loader_iterator = iter(test_loader)
             while iteration < opt['max_iterations']:
 
+                #getting the next batch of train data
                 try:
                     data = next(train_loader_iterator)
                 except StopIteration:
@@ -100,6 +101,7 @@ def main(opt):
 
                 total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
+                #getting the next batch of test data
                 try:
                     data = next(test_loader_iterator)
                 except StopIteration:
@@ -125,6 +127,7 @@ def main(opt):
                                                 best_accuracy,
                                                 total_train_loss )
 
+                #We iterate over two batches at each iteration
                 iteration += 2
                 if iteration > opt['max_iterations']:
                     break
@@ -152,6 +155,7 @@ def main(opt):
             test_loader_iterator = iter(test_loader)
             while iteration < opt['max_iterations']:
                 
+                #getting the next batch of train data
                 try:
                     data = next(train_loader_iterator)
                 except StopIteration:
@@ -160,6 +164,7 @@ def main(opt):
 
                 total_train_loss += experiment.train_iteration( data, train=True, weight=weight )
 
+                #getting the next batch of test data
                 try:
                     data = next(test_loader_iterator)
                 except StopIteration:
@@ -177,13 +182,6 @@ def main(opt):
                     val_accuracy, val_loss = experiment.validate( validation_loader )
                     logging.info(
                         f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
-                    """
-                    1)In this section we comper are best value with the accuracy of the validation set.
-                    2)in the case of better value we remove the first best value in the queue of top5accuracy.
-                    3)we save the the last best value in the queue . 
-                    4)rename the files remained to point to the correct accuracy.
-                    5) we change the best_accuracy value to the current validation set
-                    """
                     if val_accuracy >= best_accuracy:
                         top5Accuracy.pop(0)
                         top5Accuracy.append(best_accuracy)
@@ -208,6 +206,7 @@ def main(opt):
                                                    total_train_loss)
                         counter = counter +1
 
+                #We iterate over two batches at each iteration
                 iteration += 2
                 if iteration > opt['max_iterations']:
                     logging.info(best_accuracy)

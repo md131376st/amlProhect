@@ -1,4 +1,3 @@
-import clip
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as T
@@ -102,27 +101,6 @@ def read_lines_domain_disentangle(data_path, domain_name):
             examples[domain_category].append(image_path)
     return examples
 
-
-def read_lines_clip_disentangle(data_path, domain_name):
-    examples = {}
-    with open(f'{data_path}/{domain_name}.txt') as f:
-        lines = f.readlines()
-
-    for line in lines:
-        line = line.strip().split()[0].split('/')
-        category_name = line[3]
-        category_idx = CATEGORIES[category_name]
-        domain_idx = DOMAINS[domain_name]
-        domain_category = (domain_idx, category_idx)
-        image_name = line[4]
-        image_path = f'{data_path}/kfold/{domain_name}/{category_name}/{image_name}'
-        if domain_category not in examples.keys():
-            examples[domain_category] = [image_path]
-        else:
-            examples[domain_category].append(image_path)
-    return examples
-
-
 def build_splits_baseline(opt):
     source_domain = 'art_painting'
     target_domain = opt['target_domain']
@@ -137,7 +115,7 @@ def build_splits_baseline(opt):
     source_category_ratios = {category_idx: c / source_total_examples for category_idx, c in
                               source_category_ratios.items()}
 
-    # Build splits - we train only on the source domain (Art Painting)
+    # Build splits
     val_split_length = source_total_examples * 0.2  # 20% of the training split used for validation
 
     train_examples = []
@@ -199,12 +177,11 @@ def build_splits_domain_disentangle(opt):
             source_category_ratios[domain_category[1]] = len(examples_list)
         else:
             source_category_ratios[domain_category[1]] += len(examples_list)
-    # source_category_ratios = {domain_category[1]: len(examples_list) for domain_category, examples_list in source_examples.items()}
     source_total_examples = sum(source_category_ratios.values())
     source_category_ratios = {category_idx: c / source_total_examples for category_idx, c in
                               source_category_ratios.items()}
 
-    # Build splits - we train only on the source domain (Art Painting)
+    # Build splits
     val_split_length = source_total_examples * 0.2  # 20% of the training split used for validation
 
     train_examples = []
@@ -218,17 +195,17 @@ def build_splits_domain_disentangle(opt):
         for i, example in enumerate(examples_list):
             if i > split_idx:
                 train_examples.append(
-                    [example, category_idx, domain_idx])  # each pair is [path_to_img, class_label, domain_label]
+                    [example, category_idx, domain_idx])  # each triplet is [path_to_img, class_label, domain_label]
             else:
                 val_examples.append(
-                    [example, category_idx, domain_idx])  # each pair is [path_to_img, class_label, domain_label]
+                    [example, category_idx, domain_idx])  # each triplet is [path_to_img, class_label, domain_label]
 
     for domain_category, examples_list in target_examples.items():
         domain_idx = domain_category[0]
         category_idx = domain_category[1]
         for example in examples_list:
             test_examples.append(
-                [example, category_idx, domain_idx])  # each pair is [path_to_img, class_label, domain_label]
+                [example, category_idx, domain_idx])  # each triplet is [path_to_img, class_label, domain_label]
 
     # Transforms
     normalize = T.Normalize([0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # ResNet18 - ImageNet Normalization
@@ -280,7 +257,6 @@ def get_label_info(info_list, target_address):
     info = list(
         item for item in info_list if item["image_name"] == target_address)
     for item in info:
-        # hi = ' '.join(item["descriptions"]).translate(str.maketrans('', '', string.punctuation))
         return  ' '.join(item["descriptions"]).translate(str.maketrans('', '', string.punctuation))
     return value
 
@@ -289,6 +265,7 @@ def build_splits_clip_disentangle(opt):
     source_domain = 'art_painting'
     target_domain = opt['target_domain']
 
+    #using the same function as domain disentangle
     source_examples = read_lines_domain_disentangle(opt['data_path'], source_domain)
     target_examples = read_lines_domain_disentangle(opt['data_path'], target_domain)
 
@@ -299,12 +276,11 @@ def build_splits_clip_disentangle(opt):
             source_category_ratios[domain_category[1]] = len(examples_list)
         else:
             source_category_ratios[domain_category[1]] += len(examples_list)
-    # source_category_ratios = {domain_category[1]: len(examples_list) for domain_category, examples_list in source_examples.items()}
     source_total_examples = sum(source_category_ratios.values())
     source_category_ratios = {category_idx: c / source_total_examples for category_idx, c in
                               source_category_ratios.items()}
 
-    # Build splits - we train only on the source domain (Art Painting)
+    # Build splits
     val_split_length = source_total_examples * 0.2  # 20% of the training split used for validation
     # read label file
     source_label, target_label = read_label_file(opt['data_path'], source_domain, target_domain)
@@ -318,23 +294,21 @@ def build_splits_clip_disentangle(opt):
         split_idx = round(source_category_ratios[category_idx] * val_split_length)
         for i, example in enumerate(examples_list):
             label = get_label_info(source_label, example)
-            #label_token= clip.tokenize(label)
             if i > split_idx:
 
                 train_examples.append(
-                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
+                    [example, category_idx, domain_idx, label])  #[path_to_img, class_label, domain_label, text_label]
             else:
                 val_examples.append(
-                    [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
+                    [example, category_idx, domain_idx, label])  #[path_to_img, class_label, domain_label, text_label]
 
     for domain_category, examples_list in target_examples.items():
         domain_idx = domain_category[0]
         category_idx = domain_category[1]
         for example in examples_list:
             label = get_label_info(target_label, example)
-            #label_token = clip.tokenize(label)
             test_examples.append(
-                [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, target_label]
+                [example, category_idx, domain_idx, label])  # each pair is [path_to_img, class_label, domain_label, text_label]
 
     # Transforms
     normalize = T.Normalize([0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # ResNet18 - ImageNet Normalization

@@ -14,7 +14,7 @@ def myReconstructorLoss(reconstructorOutputs, features):
     return loss1( reconstructorOutputs, features ) + loss2( reconstructorOutputs, features )
 
 
-class DomainDisentangleExperiment:  # See point 2. of the project
+class DomainDisentangleExperiment:  
 
     def __init__(self, opt, weight=None):
         self.opt = opt
@@ -24,7 +24,6 @@ class DomainDisentangleExperiment:  # See point 2. of the project
         # Setup model
         self.model = DomainDisentangleModel()
         self.model.train()
-
         for param in self.model.parameters():
             param.requires_grad = True
 
@@ -71,8 +70,10 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             x, y, z = data
             x = x.to( self.device )
             y = y.to( self.device )
+            #domain labels
             z = z.to( self.device )
 
+            #freezing all the network except for category encoder and object classifier
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -89,6 +90,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for domain encoder and domain classifier
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -105,6 +107,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain classifier
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -121,6 +124,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for domain encoder and object classifier
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -137,6 +141,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain encoder and reconstructor
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -152,8 +157,10 @@ class DomainDisentangleExperiment:  # See point 2. of the project
         else:
             x, y, z = data
             x = x.to( self.device )
+            #domain labels
             z = z.to( self.device )
 
+            #freezing all the network except for domain encoder and domain classifier
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -170,6 +177,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
             
+            #freezing all the network except for category encoder and domain classifier
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -186,6 +194,7 @@ class DomainDisentangleExperiment:  # See point 2. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain encoder and reconstructor
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():

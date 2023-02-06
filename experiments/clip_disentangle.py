@@ -16,7 +16,7 @@ def myReconstructorLoss(reconstructorOutputs, features):
     return loss1(reconstructorOutputs, features) + loss2(reconstructorOutputs, features)
 
 
-class CLIPDisentangleExperiment:  # See point 4. of the project
+class CLIPDisentangleExperiment:
 
     def __init__(self, opt, weight=None):
         self.opt = opt
@@ -25,9 +25,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
 
         # Setup model
         self.model = CLIPDisentangleModel()
-        self.model.clip_model = self.model.clip_model.to(self.device)
         self.model.train()
-
         for param in self.model.parameters():
             param.requires_grad = True
 
@@ -71,26 +69,20 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
 
         return iteration, best_accuracy, total_train_loss
 
-    # def create_label_tensor(self, t):
-    #     newt = list()
-    #     le = preprocessing.LabelEncoder()
-    #     for i in t:
-    #         newt.append(le.fit_transform(i))
-    #     newt = torch.tensor(newt)
-    #     return newt
-
     def train_iteration(self, data, train=True, weight=None):
         self.weights = weight
         self.optimizer.zero_grad()
 
         if train:
             x, y, z, t = data
-            # t = self.create_label_tensor(t)
             x = x.to(self.device)
             y = y.to(self.device)
+            #domain labels
             z = z.to(self.device)
+            #tokenized text labels
             tokenized = clip.tokenize(t, truncate=True).to(self.device)
 
+            #freezing all the network except for category encoder and object classifier
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -107,6 +99,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for domain encoder and domain classifier
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -123,6 +116,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain classifier
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -139,6 +133,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for domain encoder and object classifier
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -155,6 +150,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain encoder and reconstructor
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -167,6 +163,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for the fully connected layer after the clip text encoder
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -190,9 +187,12 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
         else:
             x, y, z, t = data
             x = x.to(self.device)
+            #domain labels
             z = z.to(self.device)
+            #tokenized text labels
             tokenized = clip.tokenize(list(t)).to(self.device)
 
+            #freezing all the network except for domain encoder and domain classifier
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -209,6 +209,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain classifier
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
@@ -225,6 +226,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for category encoder and domain encoder and reconstructor
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = False
             for param in self.model.domain_classifier.parameters():
@@ -237,6 +239,7 @@ class CLIPDisentangleExperiment:  # See point 4. of the project
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = True
 
+            #freezing all the network except for the fully connected layer after the clip text encoder
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = False
             for param in self.model.object_classifier.parameters():
