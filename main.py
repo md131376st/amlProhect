@@ -182,6 +182,13 @@ def main(opt):
                     val_accuracy, val_loss = experiment.validate( validation_loader )
                     logging.info(
                         f'[VAL - {iteration}] Loss: {val_loss} | Accuracy: {(100 * val_accuracy):.2f}' )
+                    """
+                    1)In this section we comper are best value with the accuracy of the validation set.
+                    2)in the case of better value we remove the first best value in the queue of top5accuracy.
+                    3)we save the the last best value in the queue . 
+                    4)rename the files remained to point to the correct accuracy.
+                    5) we change the best_accuracy value to the current validation set
+                    """
                     if val_accuracy >= best_accuracy:
                         top5Accuracy.pop(0)
                         top5Accuracy.append(best_accuracy)
@@ -233,7 +240,7 @@ def main(opt):
                 test_accuracy, _ = experiment.validate(test_loader)
                 logging.info(f'[TEST] Accuracy best {i}: {(100 * test_accuracy):.2f}')
         for i in range(int(opt['max_iterations']/1000)):
-            if os.path.isfile(f'{opt["output_path"]}/best{i + 1}_checkpoint.pth'):
+            if os.path.isfile(f'{opt["output_path"]}/{i}_checkpoint.pth'):
                 experiment.load_checkpoint(f'{opt["output_path"]}/{i}_checkpoint.pth')
                 test_accuracy, _ = experiment.validate(test_loader)
                 logging.info(f'[TEST] Accuracy count {i}: {(100 * test_accuracy):.2f}')
