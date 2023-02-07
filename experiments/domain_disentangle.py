@@ -26,7 +26,7 @@ class DomainDisentangleExperiment:
         self.model.train()
         for param in self.model.parameters():
             param.requires_grad = True
-        logging.basicConfig(filename='./record/loss.log', encoding='utf-8', level=logging.DEBUG)
+
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss()

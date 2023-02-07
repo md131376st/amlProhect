@@ -253,5 +253,8 @@ if __name__ == '__main__':
     # Setup logger
     logging.basicConfig( filename=f'{opt["output_path"]}/log.txt', format='%(message)s', level=logging.INFO,
                          filemode='a' )
+    logging.basicConfig(filename=f'{opt["output_path"]}/data.txt', format='%(message)s', level=logging.DEBUG,
+                        filemode='a')
+
 
     main( opt )
