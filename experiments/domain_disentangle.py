@@ -1,6 +1,6 @@
 import torch
 from models.base_model import DomainDisentangleModel
-
+import logging
 
 def myEntropyLoss(outputs):
     LS = torch.nn.LogSoftmax()
@@ -26,10 +26,9 @@ class DomainDisentangleExperiment:
         self.model.train()
         for param in self.model.parameters():
             param.requires_grad = True
-
+        logging.basicConfig(filename='./record/loss.log', encoding='utf-8', level=logging.DEBUG)
         # Setup optimization procedure
         self.optimizer = torch.optim.Adam( self.model.parameters(), lr=opt['lr'] )
-
         self.object_classifier_criterion = torch.nn.CrossEntropyLoss()
         self.domain_classifier_criterion = torch.nn.CrossEntropyLoss()
         self.domain_category_criterion = myEntropyLoss
@@ -81,7 +80,9 @@ class DomainDisentangleExperiment:
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w1=self.weights[0] )
-            loss = self.object_classifier_criterion( logits, y ) * self.weights[0]
+            hi = self.object_classifier_criterion( logits, y )
+            logging.debug(f'object_classifier_criterion:{hi}')
+            loss = hi * self.weights[0]
             loss.backward()
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = True
@@ -98,7 +99,9 @@ class DomainDisentangleExperiment:
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w2=self.weights[1] )
-            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
+            hi = self.domain_classifier_criterion( logits, z )
+            logging.debug(f'domain_classifier_criterion:{hi}')
+            loss = hi * self.weights[1]
             loss.backward()
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = True
@@ -115,7 +118,9 @@ class DomainDisentangleExperiment:
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[2] )
-            loss = self.domain_category_criterion( logits ) * self.weights[2]
+            hi = self.domain_category_criterion( logits )
+            logging.debug(f'domain_category_criterion:{hi}')
+            loss = hi * self.weights[2]
             loss.backward()
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = True
@@ -132,7 +137,9 @@ class DomainDisentangleExperiment:
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w4=self.weights[3] )
-            loss = self.object_domain_criterion( logits ) * self.weights[3]
+            hi = self.object_domain_criterion( logits )
+            logging.debug(f'object_domain_criterion:{hi}')
+            loss = hi * self.weights[3]
             loss.backward()
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = True
@@ -147,7 +154,10 @@ class DomainDisentangleExperiment:
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = False
             logits, X = self.model( x, w5=self.weights[4] )
-            loss = self.reconstructor_criterion( logits, X ) * self.weights[4]
+            hi = self.reconstructor_criterion( logits, X )
+            logging.debug(f'reconstructor_criterion:{hi}')
+            logging.debug(hi)
+            loss = hi * self.weights[4]
             loss.backward()
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = True
@@ -168,7 +178,9 @@ class DomainDisentangleExperiment:
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w2=self.weights[1] )
-            loss = self.domain_classifier_criterion( logits, z ) * self.weights[1]
+            hi = self.domain_classifier_criterion(logits, z)
+            logging.debug(f'domain_classifier_criterion:{hi}')
+            loss = hi * self.weights[1]
             loss.backward()
             for param in self.model.category_encoder.parameters():
                 param.requires_grad = True
@@ -185,7 +197,9 @@ class DomainDisentangleExperiment:
             for param in self.model.reconstructor.parameters():
                 param.requires_grad = False
             logits = self.model( x, w3=self.weights[2] )
-            loss = self.domain_category_criterion( logits ) * self.weights[2]
+            hi = self.domain_category_criterion(logits)
+            logging.debug(f'domain_category_criterion:{hi}')
+            loss = hi * self.weights[2]
             loss.backward()
             for param in self.model.domain_encoder.parameters():
                 param.requires_grad = True
@@ -200,7 +214,9 @@ class DomainDisentangleExperiment:
             for param in self.model.domain_classifier.parameters():
                 param.requires_grad = False
             logits, X = self.model( x, w5=self.weights[4] )
-            loss = self.reconstructor_criterion( logits, X ) * self.weights[4]
+            hi = self.reconstructor_criterion(logits, X)
+            logging.debug(f'reconstructor_criterion:{hi}')
+            logging.debug(hi)
             loss.backward()
             for param in self.model.object_classifier.parameters():
                 param.requires_grad = True
